@@ -1,5 +1,40 @@
-# Community
+# openLooKeng Community
+
+Welcome to openEuler Community.
+
 
 ## Introduction
 
-The Community repo is to store all the information about openLooKeng Community, inclouding governance, how to contribution, SIGs(project teams), Communications and etc. 
+The Community repo is to store all the information about openLooKeng Community, inclouding governance, how to contribution, Communications and etc. 
+
+## Folders
+
+- content: In this folder you can find the introduction about governance of openLooKeng Community. The information is in English and Chinese. And it is synchronized to the menu Community in [openLooKeng website](openlookeng.io).
+
+- design: in this folder you can find the design documents to explain what information is in what files.
+
+
+## How to contribute
+
+When openLooKeng community is updated, the information should be updated as well here. If you would like to help update the information in this repo, you are very appreciated. 
+
+Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
+
+## Maintainers
+
+1. Fred Li(@zerodefect), since June, 2020
+
+2. Chen Zeng(@zengchen1024), since June, 2020
+
+## Contributors
+
+1. freesky-edward(@freesky-edward), since August, 2019
+
+
+## Contact
+
+To be added.
+
+## Meeting
+
+To be added.
