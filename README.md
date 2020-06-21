@@ -1,6 +1,6 @@
 # openLooKeng Community
 
-Welcome to openEuler Community.
+Welcome to openLooKeng Community.
 
 
 ## Introduction
@@ -28,7 +28,7 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
 ## Contributors
 
-1. freesky-edward(@freesky-edward), since August, 2019
+1. freesky-edward(@freesky-edward), since June, 2020
 
 
 ## Contact
