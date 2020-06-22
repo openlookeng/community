@@ -24,7 +24,7 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
 1. Fred Li(@zerodefect), since June, 2020
 
-2. Eason Chen(@zengchen1024), since June, 2020
+2. Zeng Chen(@zengchen1024), since June, 2020
 
 ## Contributors
 
