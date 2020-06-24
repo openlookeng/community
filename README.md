@@ -20,13 +20,11 @@ When openLooKeng community is updated, the information should be updated as well
 
 Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
-## Maintainers
+## Committers
 
 1. Fred Li(@zerodefect), since June, 2020
 
-2. Zeng Chen(@zengchen1024), since June, 2020
-
-## Contributors
+1. Zeng Chen(@zengchen1024), since June, 2020
 
 1. freesky-edward(@freesky-edward), since June, 2020
 
