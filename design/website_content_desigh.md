@@ -39,7 +39,7 @@ In case there is anything to synchronize the content to website, the folder shou
 - Folder structure of *content* in this repo.
 
 ```
-|-- en
+|-- en-us
     |-- openLooKeng Governance
         |-- _index.md
     |-- Project Management Committee
@@ -52,7 +52,7 @@ In case there is anything to synchronize the content to website, the folder shou
         |-- _index.md
     |-- Secretary
         |-- _index.md
-|-- zh
+|-- zh-cn
 // which are kept the same as the folder en.
 
 ```
@@ -67,10 +67,9 @@ The formart of _index.md is markdown but it need follow the following special fo
 +++
 bookCollapseSection = "true"
 weight = 2
++++
 
 # Introduction
-
-+++
 
 For details please refer to [website design](https://gitee.com/openlookeng/website/tree/master/design).
 
