@@ -17,8 +17,6 @@ In the website, there are the followin menues:
 - Community which includes
 
     - Contribution
-    
-    - Governance
 
     - Who we are
 
@@ -32,11 +30,11 @@ In the website, there are the followin menues:
 
     - Blog
 
-The content of *Community/Governance* is kept under the foler *content* in the repo.
+The content of governance will be added into the page *Community/Who we are*.
 
 ## The required format of the files
 
-To synchronize the content to website, the folder is designed as below:
+In case there is anything to synchronize the content to website, the folder should be designed as below:
 
 - Folder structure of *content* in this repo.
 
