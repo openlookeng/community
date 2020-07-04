@@ -5,11 +5,9 @@ Welcome to openLooKeng Community.
 
 ## Introduction
 
-The Community repo is to store all the information about openLooKeng Community, inclouding governance, how to contribution, Communications and etc. 
+The Community repo is to store all the information about openLooKeng Community, inclouding governance, how to contribute, Communications and etc. 
 
 ## Folders
-
-- content: In this folder you can find the introduction about governance of openLooKeng Community. The information is in English and Chinese. And it is synchronized to the menu Community in [openLooKeng website](openlookeng.io).
 
 - design: in this folder you can find the design documents to explain what information is in what files.
 
@@ -31,8 +29,8 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
 ## Contact
 
-To be added.
+Mail list: <dev@openlookeng.io>  or  <contact@openlookeng.io>
 
 ## Meeting
 
-To be added.
+No regular meeting is required so far. Meetings will be held when required.
