@@ -9,22 +9,16 @@ This configuration file includes the company information of the open source cont
 reference:
 
 ```
-    {
-		"gitee_id": "gitee login id",
-		"github_id": "generalfuzz",
-		"companies": [
-			{
-				"company_name": "Huawei",
-				"organization_name": "openlookeng",
-				"end_date": "2015-10-31"
-			}
-		],
-		"user_name": "test",
-		"emails": [
-			"generalftes@gmail.com",
-			"g.reseasdtes@gmail.com"
-		]
-	}
+gitee_id: gitee login id
+github_id: generalfuzz
+companies:
+  - company_name: Huawei
+    organization_name: openlookeng
+    end_date: '2015-10-31'
+user_name: test
+emails:
+  - generalftes@gmail.com
+  - g.reseasdtes@gmail.com
 ```
 
 

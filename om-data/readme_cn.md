@@ -11,22 +11,16 @@
 参考：
 
 ```
-    {
-		"gitee_id": "gitee账号",
-		"github_id": "generalfuzz",
-		"companies": [
-			{
-				"company_name": "Huawei",
-				"organization_name": "openeuler",
-				"end_date": "2015-10-31"
-			}
-		],
-		"user_name": "test",
-		"emails": [
-			"generalftes@gmail.com",
-			"g.reseasdtes@gmail.com"
-		]
-	}
+gitee_id: gitee login id
+github_id: generalfuzz
+companies:
+  - company_name: Huawei
+    organization_name: openlookeng
+    end_date: '2015-10-31'
+user_name: test
+emails:
+  - generalftes@gmail.com
+  - g.reseasdtes@gmail.com
 ```
 
 - gitee_id(必选)：gitee的login账号名，比如https://gitee.com/zhongjun2  中的zhongjun2
