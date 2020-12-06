@@ -1,934 +1,897 @@
-
 users:
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: I-am-a-robot
-  github_id: ''
-  user_name: I-am-a-robot
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: sraghunandan
-  github_id: ''
-  user_name: sraghunandan
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zhengyuhanghans
-  github_id: ''
-  user_name: zhengyuhanghans
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: chenyujiahw
-  github_id: ''
-  user_name: chenyujiahw
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lizheng920625
-  github_id: ''
-  user_name: lizheng920625
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: haochending
-  github_id: ''
-  user_name: haochending
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: farhan3
-  github_id: ''
-  user_name: farhan3
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: nitinkashyap
-  github_id: ''
-  user_name: nitinkashyap
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: fbird2020
-  github_id: ''
-  user_name: fbird2020
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: mike-ch-li
-  github_id: ''
-  user_name: mike-ch-li
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zerodefect
-  github_id: ''
-  user_name: zerodefect
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: karmvs
-  github_id: ''
-  user_name: karmvs
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: luren-luogeng
-  github_id: ''
-  user_name: luren-luogeng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: vinayakumarb
-  github_id: ''
-  user_name: vinayakumarb
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: Vincent-Weng
-  github_id: ''
-  user_name: Vincent-Weng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: rajeevrastogi
-  github_id: ''
-  user_name: rajeevrastogi
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: armlly
-  github_id: ''
-  user_name: armlly
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: sandeep
-  github_id: ''
-  user_name: sandeep
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: neeraju
-  github_id: ''
-  user_name: neeraju
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: amanomer
-  github_id: ''
-  user_name: amanomer
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: jiwenyu0531
-  github_id: ''
-  user_name: jiwenyu0531
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: giteezhangjingfang
-  github_id: ''
-  user_name: giteezhangjingfang
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: bryanwongsz
-  github_id: ''
-  user_name: bryanwongsz
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zengchen1024
-  github_id: ''
-  user_name: zengchen1024
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: sandygao
-  github_id: ''
-  user_name: sandygao
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lesliexx
-  github_id: ''
-  user_name: lesliexx
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: sundarannamalai
-  github_id: ''
-  user_name: sundarannamalai
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xzx666
-  github_id: ''
-  user_name: xzx666
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: tushengxia
-  github_id: ''
-  user_name: tushengxia
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lijiahao5269
-  github_id: ''
-  user_name: lijiahao5269
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: shuaiwang999
-  github_id: ''
-  user_name: shuaiwang999
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lancez93
-  github_id: ''
-  user_name: lancez93
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: abhishek_akg
-  github_id: ''
-  user_name: abhishek_akg
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: x26guo
-  github_id: ''
-  user_name: x26guo
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: kogure
-  github_id: ''
-  user_name: kogure
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: fhxing168
-  github_id: ''
-  user_name: fhxing168
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: kkrazy
-  github_id: ''
-  user_name: kkrazy
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: ZhanLu00
-  github_id: ''
-  user_name: ZhanLu00
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: cengdeyong
-  github_id: ''
-  user_name: cengdeyong
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: siddharthjaiswal
-  github_id: ''
-  user_name: siddharthjaiswal
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: slgobinath
-  github_id: ''
-  user_name: slgobinath
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xrj6377
-  github_id: ''
-  user_name: xrj6377
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: TommyLike
-  github_id: ''
-  user_name: TommyLike
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: jessica-surya
-  github_id: ''
-  user_name: jessica-surya
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: freesky-edward
-  github_id: ''
-  user_name: freesky-edward
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qzweng
-  github_id: ''
-  user_name: qzweng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: chen-peikun
-  github_id: ''
-  user_name: chen-peikun
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: tyler-liu
-  github_id: ''
-  user_name: tyler-liu
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: gravitys169
-  github_id: ''
-  user_name: gravitys169
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: leoluheng
-  github_id: ''
-  user_name: leoluheng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: cad-x2
-  github_id: ''
-  user_name: cad-x2
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lvzixin
-  github_id: ''
-  user_name: lvzixin
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zhongjun2
-  github_id: ''
-  user_name: zhongjun2
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: cmwenxin
-  github_id: ''
-  user_name: cmwenxin
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qiaominna
-  github_id: ''
-  user_name: qiaominna
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: wsjz
-  github_id: ''
-  user_name: wsjz
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: simonameng
-  github_id: ''
-  user_name: simonameng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: andy12383
-  github_id: ''
-  user_name: andy12383
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xjq001
-  github_id: ''
-  user_name: xjq001
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: AyushGupta3
-  github_id: ''
-  user_name: AyushGupta3
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: guojunfei399
-  github_id: ''
-  user_name: guojunfei399
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: rebecca-liu66
-  github_id: ''
-  user_name: rebecca-liu66
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: ufolr
-  github_id: ''
-  user_name: ufolr
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: open_lookeng
-  github_id: ''
-  user_name: open_lookeng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xiaxia446681
-  github_id: ''
-  user_name: xiaxia446681
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: diagon-alley
-  github_id: ''
-  user_name: diagon-alley
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: luodan000
-  github_id: ''
-  user_name: luodan000
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qin_chengzhi
-  github_id: ''
-  user_name: qin_chengzhi
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: rynax-ls
-  github_id: ''
-  user_name: rynax-ls
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zengchen1024h
-  github_id: ''
-  user_name: zengchen1024h
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: benoithudzia
-  github_id: ''
-  user_name: benoithudzia
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: dinesh_kumar_k
-  github_id: ''
-  user_name: dinesh_kumar_k
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: hesx
-  github_id: ''
-  user_name: hesx
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: jiangzhx
-  github_id: ''
-  user_name: jiangzhx
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: lide-reed
-  github_id: ''
-  user_name: lide-reed
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: morewell
-  github_id: ''
-  user_name: morewell
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: rookey
-  github_id: ''
-  user_name: rookey
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: songling-olk
-  github_id: ''
-  user_name: songling-olk
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: wang_deng_yang
-  github_id: ''
-  user_name: wang_deng_yang
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: wyy566
-  github_id: ''
-  user_name: wyy566
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: FaanJoeng
-  github_id: ''
-  user_name: FaanJoeng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: IsaacPatel
-  github_id: ''
-  user_name: IsaacPatel
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: KathyGraves
-  github_id: ''
-  user_name: KathyGraves
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: WangHuahua666
-  github_id: ''
-  user_name: WangHuahua666
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: amelia_wang
-  github_id: ''
-  user_name: amelia_wang
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: cunha455
-  github_id: ''
-  user_name: cunha455
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: darren_deng01
-  github_id: ''
-  user_name: darren_deng01
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: datawork_top
-  github_id: ''
-  user_name: datawork_top
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: debasatwa29
-  github_id: ''
-  user_name: debasatwa29
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: djsource
-  github_id: ''
-  user_name: djsource
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: gengyun93
-  github_id: ''
-  user_name: gengyun93
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: h_1_2
-  github_id: ''
-  user_name: h_1_2
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: hanwenwei
-  github_id: ''
-  user_name: hanwenwei
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: huangyan010
-  github_id: ''
-  user_name: huangyan010
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: itence
-  github_id: ''
-  user_name: itence
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: jfinaler
-  github_id: ''
-  user_name: jfinaler
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: junpingdu
-  github_id: ''
-  user_name: junpingdu
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: justwinky
-  github_id: ''
-  user_name: justwinky
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: keyiliu
-  github_id: ''
-  user_name: keyiliu
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: kokki-zk
-  github_id: ''
-  user_name: kokki-zk
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: leeau23
-  github_id: ''
-  user_name: leeau23
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: liujingang09
-  github_id: ''
-  user_name: liujingang09
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: liuyang77886
-  github_id: ''
-  user_name: liuyang77886
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: luanyang666
-  github_id: ''
-  user_name: luanyang666
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: mcnitoooksp
-  github_id: ''
-  user_name: mcnitoooksp
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: mobnet
-  github_id: ''
-  user_name: mobnet
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: opensourceway
-  github_id: ''
-  user_name: opensourceway
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: peanut_0
-  github_id: ''
-  user_name: peanut_0
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qia344sha
-  github_id: ''
-  user_name: qia344sha
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qizou
-  github_id: ''
-  user_name: qizou
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: qyvip
-  github_id: ''
-  user_name: qyvip
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: sanmen77
-  github_id: ''
-  user_name: sanmen77
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: seabornlee
-  github_id: ''
-  user_name: seabornlee
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: senny456
-  github_id: ''
-  user_name: senny456
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: shushu9403
-  github_id: ''
-  user_name: shushu9403
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: simple2049
-  github_id: ''
-  user_name: simple2049
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: tarshn
-  github_id: ''
-  user_name: tarshn
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: v5uncode
-  github_id: ''
-  user_name: v5uncode
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: wangboxin_admin
-  github_id: ''
-  user_name: wangboxin_admin
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: wu-min1993
-  github_id: ''
-  user_name: wu-min1993
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xccui
-  github_id: ''
-  user_name: xccui
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: xido123
-  github_id: ''
-  user_name: xido123
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: yangjing99
-  github_id: ''
-  user_name: yangjing99
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: yao-yuan-yy
-  github_id: ''
-  user_name: yao-yuan-yy
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: yuhongjie
-  github_id: ''
-  user_name: yuhongjie
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: yunchuang-zhicheng
-  github_id: ''
-  user_name: yunchuang-zhicheng
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zengchen1024-ci-robot
-  github_id: ''
-  user_name: zengchen1024-ci-robot
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zh-ketchup
-  github_id: ''
-  user_name: zh-ketchup
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zha_hw
-  github_id: ''
-  user_name: zha_hw
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zhengzhenyu
-  github_id: ''
-  user_name: zhengzhenyu
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zhpeace
-  github_id: ''
-  user_name: zhpeace
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zhu-wenda
-  github_id: ''
-  user_name: zhu-wenda
-- companies:
-    company_name: ''
-    organization_name: ''
-  emails: []
-  gitee_id: zou_jinda
-  github_id: ''
-  user_name: zou_jinda
-
+  - gitee_id: amelia_wang
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: armlly
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: AyushGupta3
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: benoithudzia
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: bryanwongsz
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: cad-x2
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: cengdeyong
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: chen-peikun
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: chenyujiahw
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: cmwenxin
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: cunha455
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: darren_deng01
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: datawork_top
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: debasatwa29
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: diagon-alley
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: dinesh_kumar_k
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: djsource
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: FaanJoeng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: farhan3
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: fbird2020
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: fhxing168
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: freesky-edward
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: gengyun93
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: giteezhangjingfang
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: gravitys169
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: guojunfei399
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: h_1_2
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: hanwenwei
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: haochending
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: hesx
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: I-am-a-robot
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: IsaacPatel
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: itence
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: jessica-surya
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: jfinaler
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: jiwenyu0531
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: junpingdu
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: karmvs
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: KathyGraves
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: kkrazy
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: kogure
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: kokki-zk
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: lancez93
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: leeau23
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: leoluheng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: lesliexx
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: lijiahao5269
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: liuyang77886
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: lizheng920625
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: luanyang666
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: luodan000
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: luren-luogeng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: lvzixin
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: mcnitoooksp
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: mobnet
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: neeraju
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: nitinkashyap
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: open_lookeng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: opensourceway
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: peanut_0
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: qia344sha
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: qiaominna
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: qizou
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: qyvip
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: qzweng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: rajeevrastogi
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: rebecca-liu66
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: sandeep
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: sandygao
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: sanmen77
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: seabornlee
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: shuaiwang999
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: shushu9403
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: siddharthjaiswal
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: simonameng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: simple2049
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: slgobinath
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: songling-olk
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: sraghunandan
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: sundarannamalai
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: tarshn
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: TommyLike
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: tushengxia
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: tyler-liu
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: ufolr
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: v5uncode
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: vinayakumarb
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: Vincent-Weng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: wang_deng_yang
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: wsjz
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: wu-min1993
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: wyy566
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: x26guo
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xccui
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xiaxia446681
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xido123
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xjq001
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xrj6377
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: xzx666
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: yangjing99
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: yunchuang-zhicheng
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zengchen1024
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zengchen1024h
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zerodefect
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zha_hw
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: ZhanLu00
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zhengyuhanghans
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zhengzhenyu
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zh-ketchup
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zhongjun2
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zhu-wenda
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
+  - gitee_id: zou_jinda
+    github_id: ''
+    companies:
+      - company_name: ''
+        organization_name: ''
+        end_date: ''
+    user_name: ''
+    emails: []
