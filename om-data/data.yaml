@@ -872,13 +872,14 @@ users:
     user_name: ''
     emails: []
   - gitee_id: zhongjun2
-    github_id: ''
+    github_id: zhongjun2
     companies:
-      - company_name: ''
+      - company_name: Huawei
         organization_name: ''
         end_date: ''
-    user_name: ''
-    emails: []
+    user_name: zhongjun
+    emails:
+      - jun.zhongjun2@gmail.com
   - gitee_id: zhu-wenda
     github_id: ''
     companies:
