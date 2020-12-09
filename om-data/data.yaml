@@ -824,13 +824,15 @@ users:
     user_name: ''
     emails: []
   - gitee_id: zerodefect
-    github_id: ''
+    github_id: liyongle
     companies:
-      - company_name: ''
+      - company_name: 'Huawei'
         organization_name: ''
-        end_date: ''
-    user_name: ''
-    emails: []
+        end_date: '2099-12-31'
+    user_name: 'Fred Li'
+    emails: 
+      - yongle.li@gmail.com
+      - liyongle@huawei.com
   - gitee_id: zha_hw
     github_id: ''
     companies:
