@@ -12,12 +12,12 @@ This document describes how to write a well-crafted issue.
     - Is there anything else others need to know? For example, environment and conditions.
 
 + **Source and function**  The concept of issue originates from the customer service department. When a user makes a call to report a problem, the customer service personnel create a ticket. Each subsequent processing step and each communication with the user need to be updated to the ticket to record all process information. This is the predecessor of the issue. As it expands, the issue evolves into a full-function project management tool for developing and executing software development plans.
-+ The openLooKeng community uses the issue tracking and management system provided by Gitee and GitHub.
++ The openLooKeng community uses the issue tracking and management system provided by [Gitee](https://gitee.com/openlookeng) and [Github](https://github.com/openlookeng).
 + The following figure shows the openLooKeng issue list. You can view or claim issues (tasks) that you are interested in, or create issues according to the following guide.
 <img src='img/1.png'>
 
 ### 1.2 Issues Page
-Each repository of Gitee or GitHub has an Issues page.
+Each repository of [Gitee](https://gitee.com/openlookeng) or [Github](https://github.com/openlookeng) has an Issues page.
 
 <img src='img/2.png'>
 
@@ -35,7 +35,7 @@ Enter the title and content of the issue on the left and configure optional conf
 ### 1.3 Repository
 
 If you can determine which repository your issue belongs to, search for the repository on the Repositories page.
-If not, submit issues to the community repository.
+If not, submit issues to the [community](https://gitee.com/openlookeng/community) repository.
 <img src='img/3.png'>
 
 ### 1.4 New Issue
@@ -61,19 +61,19 @@ Tips: When creating a PR, you need to attach the associated issue link or ID (se
 
 **2.1.1 Registering a Gitee/GitHub Account** 
 
-The code of openLooKeng is hosted on Gitee and GitHub. Therefore, you need to register an account with Gitee or GitHub before making contribution. You are advised to use your personal email address to register an account. After the registration is complete, use the account to log in.the repository to the local development
+The code of openLooKeng is hosted on [Gitee](https://gitee.com/openlookeng) and [Github](https://github.com/openlookeng). Therefore, you need to register an account with [Gitee](https://gitee.com/openlookeng) or [Github](https://github.com/openlookeng) before making contribution. You are advised to use your personal email address to register an account. After the registration is complete, use the account to log in.the repository to the local development
 
 **2.1.2 Signing the openLooKeng CLA**
 
-Go to the Contributor License Agreement page and sign the CLA with your Gitee ID based on your identity (individual/employee/corporation).
+Go to the [Contributor License Agreement](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVubG9va2VuZw==) page and sign the CLA with your Gitee ID based on your identity (individual/employee/corporation).
 View your Gitee ID in your Gitee profile.
 
 <img src='img/4.png'>
 
 **2.1.3 Installing and Configuring Git**
 
-Git is an excellent project version control solution. For details, see the Git Book.
-Download and install Git by referring to Getting Started > Installing Git.
+Git is an excellent project version control solution. For details, see the [Git Book](https://git-scm.com/book/en/v2).
+Download and install Git by referring to [Getting Started > Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 **Initial Configuration**
 
@@ -145,7 +145,9 @@ Already up to date.
 ```
 After the branch is ready, you can start development on the local PC. Properly name Markdown files and other related files for effectively management and use of resource files. Examples:
 20220101-new-year-is-coming.md
+
 20220101-new-year-is-coming-01.png
+
 20220101-new-year-is-coming-02.gif
 
 
@@ -197,15 +199,15 @@ You can also leave a message in the comment area of the related issues for other
 ## 4 Participating in Community Activities
 
 ### 4.1 Communication Methods in the Community
-Community members can communicate with each other through mailing lists, Slack, and community communication groups. For details, see the Communication page.
+Community members can communicate with each other through mailing lists, Slack, and community communication groups. For details, see the [Communication](https://openlookeng.io/communication.html) page.
 
 ### 4.2 Community News and Events
-The community holds PMC meetings, meetups, and developer conferences every year. These activities and events can be found on the Events page of openLooKeng.
+The community holds PMC meetings, meetups, and developer conferences every year. These activities and events can be found on the [Events](https://openlookeng.io/events.html) page of openLooKeng.
 
 
 
 ## 5 Communication and Feedback
-If you have any questions about the contributor guide or the development process, please feel free to tell us through the mailing lists and write down your questions and doubts in the email with the subject line in the format of "[Questions About the Development Process]". The openLooKeng community operations team will coordinate and assign related personnel to answer your questions.
+If you have any questions about the contributor guide or the development process, please feel free to tell us through the [mailing lists](https://openlookeng.io/communication.html) and write down your questions and doubts in the email with the subject line in the format of "[Questions About the Development Process]". The openLooKeng community operations team will coordinate and assign related personnel to answer your questions.
 
 Other references:
 openLooKeng community contribution guide:

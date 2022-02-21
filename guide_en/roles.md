@@ -5,8 +5,8 @@ This document describes the roles and responsibilities of openLooKeng community 
 ### Contributors
 
 **Mandatory** 
-+ Comply with the openLooKeng Community Code of Conduct.
-+ Sign the Contributor License Agreement (CLA).
++ [Comply with the openLooKeng Community Code of Conduct](https://gitee.com/openlookeng/community/blob/master/code-of-conduct.md).
++ [Sign the Contributor License Agreement (CLA)](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVubG9va2VuZw==).
 + Create one or more pull requests (PRs) that are merged by Committers.
 
 Those who meet the preceding requirements are community contributors. Contributors are an important part of the openLooKeng community.
@@ -90,7 +90,7 @@ Committers can review and approve the PRs made by developers.
 
 **How Do I Become or Invite a Committer?** 
 
-Community contributors who actively participate in code review can further apply for committer candidacy. Candidates need to be interviewed by the PMC of the community, and then nominated and voted by PMC members to become formal committers. The PMC should provide guidance for new committers. The departure of committers must be reported to the PMC for review and approval. For details about voting rules, see openLooKeng Governance.
+Community contributors who actively participate in code review can further apply for committer candidacy. Candidates need to be interviewed by the PMC of the community, and then nominated and voted by PMC members to become formal committers. The PMC should provide guidance for new committers. The departure of committers must be reported to the PMC for review and approval. For details about voting rules, see [openLooKeng Governance](https://gitee.com/openlookeng/community/blob/master/governance.md).
 
 ### PMC
 

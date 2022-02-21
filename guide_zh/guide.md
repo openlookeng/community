@@ -14,12 +14,12 @@
     - 还有什么我们需要知道的吗？比如环境与条件
 
 + **来源和作用：** Issue的概念起源于客服部门，用户打电话反馈问题，客服就创建一个工单（ticket），后继每一个处理步骤、每一次和用户的交流都要更新到工单内，记录全部的过程信息，这就是Issue的前身。随着后来的不断扩展，逐步演变成制定和实施软件开发计划的全功能项目管理工具。
-+ openLooKeng社区采用Gitee / Github提供的Issue跟踪和管理系统。
++ openLooKeng社区采用[Gitee](https://gitee.com/openlookeng) / [Github](https://github.com/openlookeng)提供的Issue跟踪和管理系统。
 + 图为社区Issue列表，您可以查看或领取感兴趣的Issue（任务），也可以根据下方指南创建新的Issue
 <img src='img/1.png'>
 
 ### 1.2 Issue面板
-Gitee / Github的每一个Repository内都有一个Issue面板
+[Gitee](https://gitee.com/openlookeng) / [Github](https://github.com/openlookeng)的每一个Repository内都有一个Issue面板
 
 <img src='img/2.png'>
 
@@ -37,7 +37,7 @@ Gitee / Github的每一个Repository内都有一个Issue面板
 ### 1.3 确认Issue所属的仓库
 
 如果您能够确定问题归属于哪一个仓库，请在openLooKeng代码仓主页的搜索栏内找到该仓库。
-如果您不能确定问题归属，请在“community”仓库内提Issue。
+如果您不能确定问题归属，请在“[community](https://gitee.com/openlookeng/community)”仓库内提Issue。
 <img src='img/3.png'>
 
 ### 1.4 创建一个新的Issue
@@ -62,17 +62,17 @@ Gitee / Github的每一个Repository内都有一个Issue面板
 
 **2.1.1 注册Gitee/Github账号** 
 
-openLooKeng社区的代码托管在Gitee和 Github；因此在贡献之前，您需要在Gitee或Github上注册账号。建议以自己私人邮箱进行注册；注册完毕后以该账号登录。
+openLooKeng社区的代码托管[Gitee](https://gitee.com/openlookeng) 和 [Github](https://github.com/openlookeng)；因此在贡献之前，您需要在Gitee或Github上注册账号。建议以自己私人邮箱进行注册；注册完毕后以该账号登录。
 
 **2.1.2 签署openLooKeng社区贡献者许可协议（CLA）**
-+ 进入贡献者许可协议（CLA）页面，根据您参与的身份（个人/企业/员工），使用gitee-id选择签署。
++ 进入[贡献者许可协议（CLA）](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVubG9va2VuZw==)页面，根据您参与的身份（个人/企业/员工），使用gitee-id选择签署。
 + 在自己的gitee主页查看个人gitee-id
 
 <img src='img/4.png'>
 
 **2.1.3 安装配置工具git**
 
-git是一款优秀的项目版本控制方案，具体介绍请参考git-book 点开起步-安装git进行下载安装
+git是一款优秀的项目版本控制方案，具体介绍请参考 [git-book](https://git-scm.com/book/zh/v2) 点开[起步-安装git](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)进行下载安装
 
 git初始设置
 若是第一次使用git命令，则要设置姓名和邮箱（请用英文输入）。
@@ -142,7 +142,9 @@ Already up to date.
 ```
 分支准备好后，您可以开始在本地电脑进行开发。科学命名Markdown文档以及对应的资料，可以有效管理和使用您的资源文件。例如：
 20220101-new-year-is-coming.md
+
 20220101-new-year-is-coming-01.png
+
 20220101-new-year-is-coming-02.gif
 
 
@@ -193,15 +195,15 @@ Already up to date.
 ## 4 参与社区活动
 
 ### 4.1 社区内沟通方式说明：
-openLooKeng社区的交流方式有邮件列表、Slack交流工具、社区交流群。使用方式请参考社区交流方式指南。
+openLooKeng社区的交流方式有邮件列表、Slack交流工具、社区交流群。使用方式请参考[社区交流方式指南](https://openlookeng.io/zh-cn/communication.html)。
 
 ### 4.2 社区新闻和事件
-社区每年都会定期举办 PMC例会、Meetup交流会、开发者大会等，这些活动与事件均可以在openLooKeng活动页面上找到。
+社区每年都会定期举办 PMC例会、Meetup交流会、开发者大会等，这些活动与事件均可以在[openLooKeng活动页面](https://openlookeng.io/zh-cn/events.html)上找到。
 
 
 
 ## 5 交流与反馈
-如果您在使用该贡献者指南或对开发过程有疑问，请随时通过告诉我们（邮件列表），并在邮件标题内用“【开发过程疑问】”作为邮件标题写出你的疑问和困惑，openLooKeng社区运营团队会协调人员解答。
+如果您在使用该贡献者指南或对开发过程有疑问，请随时通过告诉[我们（邮件列表）](https://openlookeng.io/zh-cn/communication.html)，并在邮件标题内用“【开发过程疑问】”作为邮件标题写出你的疑问和困惑，openLooKeng社区运营团队会协调人员解答。
 
 其他参考链接：
 openLooKeng社区贡献攻略：

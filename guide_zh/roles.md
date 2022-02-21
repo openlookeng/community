@@ -6,8 +6,8 @@
 ### 社区贡献者 Contributor
 
 **要求** 
-+ 遵循openLooKeng社区行为守则
-+ 签署社区贡献者协议（CLA）
++ [遵循openLooKeng社区行为守则](https://gitee.com/openlookeng/community/blob/master/code-of-conduct.md)
++ [签署社区贡献者协议（CLA）](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVubG9va2VuZw==)
 + 在openLooKeng社区有一个或以上被Committer合入的Pull Request(PR)。
 
 满足以上要求的，均是社区贡献者Contributors。这是openLooKeng社区的重要组成部分。
@@ -82,7 +82,7 @@ Committer的责任是评审和批准开发人员所提交的PR。
 
 **责任与权力**
 
-1. 评审PR：对Contributor提交的PR完成评审，评审可以参考社区的编程建议和安全编程规范。
+1. 评审PR：对Contributor提交的PR完成评审，评审可以参考社区的[编程建议](https://gitee.com/openlookeng/hetu-core/wikis/Security/openLooKeng%E5%AE%89%E5%85%A8%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97)和[安全编程规范](https://gitee.com/openlookeng/hetu-core/wikis/Security/openLooKeng%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97)。
 2. 更新和维护软件包版本：遵守社区的软件包更新质量控制策略完成软件包的更新。
 3. 和测试团队合作，包括：
     >在提交软件包时，向质量检查人员提供如何调试/分类软件包的信息，以供问题的分类
@@ -90,7 +90,7 @@ Committer的责任是评审和批准开发人员所提交的PR。
     >提交软件包更新时，提供有关更新中已经修复问题的测试用例，以供质量检查人员使用。
 
 **如何成为/邀请新Committer？** 
-积极参与代码审查的社区贡献者，可以进一步申请为Committer候选人时。候选人需要经过社区PMC的面试，并由PMC成员进一步进行提名和投票，从而成为正式的Committer。PMC应该为新的Committer提供指导。Committer的离任应报PMC决策审核。投票规则可参考 openLooKeng社区治理。
+积极参与代码审查的社区贡献者，可以进一步申请为Committer候选人时。候选人需要经过社区PMC的面试，并由PMC成员进一步进行提名和投票，从而成为正式的Committer。PMC应该为新的Committer提供指导。Committer的离任应报PMC决策审核。投票规则可参考 [openLooKeng社区治理](https://gitee.com/openlookeng/community/blob/master/governance_cn.md)。
 
 ### 项目管理委员会 (PMC)
 
