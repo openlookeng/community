@@ -1,11 +1,3 @@
-+++ 
-title = "openLooKeng Community Issue and Pull Request Submission Guide"
-date = "2021-02-21" 
-author = "openLooKeng"
-description = "本文简要描述了openLooKeng社区成员的角色和职责要求。如果您符合要求且有兴趣，可以微信联系 openLooKeng小助手（微信号openLooKengoss）申请，并提供您的简历（含Gitee-id与邮箱）、想申请的社区角色。"
-+++
- 
-
 ## 1 Creating an Issue
 Discovering and submitting issues is one of the good ways to contribute to the community.
 This document describes how to write a well-crafted issue.

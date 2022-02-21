@@ -1,10 +1,3 @@
-+++ 
-title = "Roles in the openLooKeng Community"
-date = "2021-02-21" 
-author = "openLooKeng"
-description = "This document describes the roles and responsibilities of openLooKeng community members. If you are interested in and meet the requirements on a certain role, you can contact openLooKeng Assistant (WeChat ID: openLooKengoss) to submit your resume (including Gitee ID and email address) to apply for a role."
-+++
-
 ## Roles in the openLooKeng Community
 
 This document describes the roles and responsibilities of openLooKeng community members. If you are interested in and meet the requirements on a certain role, you can contact openLooKeng Assistant (WeChat ID: openLooKengoss) to submit your resume (including Gitee ID and email address) to apply for a role.

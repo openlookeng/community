@@ -1,9 +1,3 @@
-+++ 
-title = "openLooKeng社区角色说明"
-date = "2021-02-21" 
-author = "openLooKeng"
-description = "本文简要描述了openLooKeng社区成员的角色和职责要求。如果您符合要求且有兴趣，可以微信联系 openLooKeng小助手（微信号openLooKengoss）申请，并提供您的简历（含Gitee-id与邮箱）、想申请的社区角色。"
-+++
 
 ## openLooKeng社区角色说明
 
