@@ -61,7 +61,7 @@ Mail List: pmc@openlookeng.io
 
 Slack: 
 
-Biweekly meeting: 02:00-03:00 am, Tuesday, UTC. It happens on Slack.
+Biweekly meeting: 11:00-12:00 am, Friday, UTC+8. It happens on Slack.
 
 ### Committers
 

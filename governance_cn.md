@@ -56,7 +56,7 @@ Mail List: pmc@openlookeng.io
 
 Slack: 
 
-双周会议: 02:00-03:00 am, Tuesday, UTC. It happens on Slack.
+双周会议: 11:00-12:00 am, Friday, UTC+8. It happens on Slack.
 
 ### Committers
 
