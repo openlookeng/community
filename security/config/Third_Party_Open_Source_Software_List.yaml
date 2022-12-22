@@ -8,9 +8,6 @@ hetu-core:
   error_prone_annotations:
     cpeName: error_prone_annotations
     version: 2.3.2
-  jackson-datatype-jdk8:
-    cpeName: jackson-datatype-jdk8
-    version: 2.11.4
   configuration:
     cpeName: configuration
     version: 0.193
@@ -26,9 +23,6 @@ hetu-core:
   mchange-commons-java:
     cpeName: mchange-commons-java
     version: 0.2.15
-  jackson-datatype-guava:
-    cpeName: jackson-datatype-guava
-    version: 2.11.4
   okhttp:
     cpeName: okhttp
     version: 3.9.0
@@ -80,15 +74,24 @@ hetu-core:
   MinLog:
     cpeName: MinLog
     version: 1.3.1
+  jackson-datatype-guava:
+    cpeName: jackson-datatype-guava
+    version: 2.14.0
   stats:
     cpeName: stats
     version: 0.193
   aether-impl:
     cpeName: aether-impl
     version: 1.13.1
+  jackson-datatype-jsr310:
+    cpeName: jackson-datatype-jsr310
+    version: 2.14.0
   guice:
     cpeName: guice
     version: 4.2.2
+  Jackson-core:
+    cpeName: Jackson-core
+    version: 2.14.0
   coral-trino-parser:
     cpeName: coral-trino-parser
     version: 2.0.55
@@ -96,9 +99,6 @@ hetu-core:
     cpeName: jjwt
     version: 0.9.0
     url: http://nexus.sonatype.org/oss-repository-hosting.html/jjwt
-  Jackson-core:
-    cpeName: Jackson-core
-    version: 2.11.4
   picocli:
     cpeName: picocli
     version: 4.6.3
@@ -106,9 +106,6 @@ hetu-core:
     cpeName: antlr4-runtime
     version: 4.7.1
     url: http://www.antlr.org/runtime/antlr4-runtime
-  jackson-databind:
-    cpeName: jackson-databind
-    version: 2.11.4
   re2j-td:
     cpeName: re2j-td
     version: 1.4
@@ -132,13 +129,13 @@ hetu-core:
   http2-server:
     cpeName: http2-server
     version: 9.4.48.v20220622
-  jackson-datatype-joda:
-    cpeName: jackson-datatype-joda
-    version: 2.11.4
   httpcore:
     cpeName: httpcore
     version: 4.4.13
     url: http://hc.apache.org/httpcomponents-core-ga
+  Jackson-annotations:
+    cpeName: Jackson-annotations
+    version: 2.14.0
   presto-plugin-toolkit:
     cpeName: presto-plugin-toolkit
     version: 1.9.0-SNAPSHOT
@@ -170,6 +167,9 @@ hetu-core:
   presto-rcfile:
     cpeName: presto-rcfile
     version: 1.9.0-SNAPSHOT
+  jackson-datatype-jdk8:
+    cpeName: jackson-datatype-jdk8
+    version: 2.14.0
   libthrift:
     cpeName: libthrift
     version: 0.9.3-1
@@ -205,9 +205,6 @@ hetu-core:
   guava:
     cpeName: guava
     version: 26.0.0.jre
-  Jackson-module-parameter-names:
-    cpeName: Jackson-module-parameter-names
-    version: 2.11.4
   async-http-client:
     cpeName: async-http-client
     version: 1.6.5
@@ -233,10 +230,6 @@ hetu-core:
   failsafe:
     cpeName: failsafe
     version: 2.0.1
-  org.joda.time:
-    cpeName: org.joda.time
-    version: 2.10.5
-    url: https://www.joda.org/joda-time/
   jmxutils:
     cpeName: jmxutils
     version: 1.21
@@ -249,10 +242,6 @@ hetu-core:
   parameternames:
     cpeName: parameternames
     version: 1.4
-  netty-resolver-dns:
-    cpeName: netty-resolver-dns
-    version: 4.1.72.Final
-    url: https://netty.io/netty-resolver-dns/
   iceberg-core:
     cpeName: iceberg-core
     version: 0.13.1
@@ -303,6 +292,10 @@ hetu-core:
     cpeName: commons-dbcp2
     version: 2.6.0
     url: http://commons.apache.org/dbcp/
+  netty-transport-native-unix-common:
+    cpeName: netty-transport-native-unix-common
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-native-unix-common/
   reflectasm:
     cpeName: reflectasm
     version: 1.11.9
@@ -319,12 +312,13 @@ hetu-core:
   presto-base-jdbc:
     cpeName: presto-base-jdbc
     version: 1.9.0-SNAPSHOT
+  org.joda.time:
+    cpeName: org.joda.time
+    version: 2.10.8
+    url: https://www.joda.org/joda-time/
   commons-lang3:
     cpeName: commons-lang3
     version: 3.10
-  jackson-dataformat-smile:
-    cpeName: jackson-dataformat-smile
-    version: 2.11.4
   http2-http-client-transport:
     cpeName: http2-http-client-transport
     version: 9.4.48.v20220622
@@ -337,9 +331,13 @@ hetu-core:
   commons-compiler:
     cpeName: commons-compiler
     version: 3.0.11
-  jackson-datatype-jsr310:
-    cpeName: jackson-datatype-jsr310
-    version: 2.11.4
+  netty-codec-dns:
+    cpeName: netty-codec-dns
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-dns/
+  Jackson-module-parameter-names:
+    cpeName: Jackson-module-parameter-names
+    version: 2.14.0
   presto-client:
     cpeName: presto-client
     version: 1.9.0-SNAPSHOT
@@ -352,14 +350,6 @@ hetu-core:
   postgresql:
     cpeName: postgresql
     version: 42.2.14
-  netty-codec-socks:
-    cpeName: netty-codec-socks
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-socks/
-  netty-transport-native-epoll:
-    cpeName: netty-transport-native-epoll
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-native-epoll/
   presto-ml:
     cpeName: presto-ml
     version: 1.9.0-SNAPSHOT
@@ -372,26 +362,32 @@ hetu-core:
   presto-resource-group-managers:
     cpeName: presto-resource-group-managers
     version: 1.9.0-SNAPSHOT
-  netty-transport:
-    cpeName: netty-transport
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport/
+  zookeeper-jute:
+    cpeName: zookeeper-jute
+    version: 3.6.3
+    url: http://zookeeper.apache.org/zookeeper-jute
   shardingsphere-standalone-mode-repository-jdbc-h2:
     cpeName: shardingsphere-standalone-mode-repository-jdbc-h2
     version: 5.2.0
+  jackson-databind:
+    cpeName: jackson-databind
+    version: 2.14.0
+  netty-codec-memcache:
+    cpeName: netty-codec-memcache
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-memcache/
   jaxb-api:
     cpeName: jaxb-api
     version: 2.3.0
-  netty-codec:
-    cpeName: netty-codec
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec/
   metrics-core:
     cpeName: metrics-core
     version: 2.2.0
   sql-formatter:
     cpeName: sql-formatter
     version: 2.0.2
+  jackson-datatype-joda:
+    cpeName: jackson-datatype-joda
+    version: 2.14.0
   hetu-cube:
     cpeName: hetu-cube
     version: 1.9.0-SNAPSHOT
@@ -447,14 +443,14 @@ hetu-core:
   http2-client:
     cpeName: http2-client
     version: 9.4.48.v20220622
-  netty-resolver-dns-classes-macos:
-    cpeName: netty-resolver-dns-classes-macos
-    version: 4.1.72.Final
-    url: https://netty.io/netty-resolver-dns-classes-macos/
   curator-recipes:
     cpeName: curator-recipes
     version: 5.1.0
     url: http://curator.apache.org/curator-recipes
+  netty-resolver:
+    cpeName: netty-resolver
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver/
   commons-beanutils:
     cpeName: commons-beanutils
     version: 1.9.4
@@ -490,6 +486,10 @@ hetu-core:
   slf4j-jdk14:
     cpeName: slf4j-jdk14
     version: 1.7.29
+  netty-codec-mqtt:
+    cpeName: netty-codec-mqtt
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-mqtt/
   plexus-interpolation:
     cpeName: plexus-interpolation
     version: 1.14
@@ -497,6 +497,13 @@ hetu-core:
     cpeName: commons-math3
     version: 3.6.1
     url: http://commons.apache.org/proper/commons-math/
+  Jackson-dataformat-YAML:
+    cpeName: Jackson-dataformat-YAML
+    version: 2.14.0
+  netty-transport-classes-epoll:
+    cpeName: netty-transport-classes-epoll
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-classes-epoll/
   antlr-runtime:
     cpeName: antlr-runtime
     version: 3.4
@@ -541,6 +548,10 @@ hetu-core:
   jersey-container-servlet:
     cpeName: jersey-container-servlet
     version: 2.26.0
+  netty-transport-rxtx:
+    cpeName: netty-transport-rxtx
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-rxtx/
   shardingsphere-db-discovery-mysql:
     cpeName: shardingsphere-db-discovery-mysql
     version: 5.2.0
@@ -591,10 +602,6 @@ hetu-core:
   hetu-opengauss:
     cpeName: hetu-opengauss
     version: 1.9.0-SNAPSHOT
-  vertx-sql-client:
-    cpeName: vertx-sql-client
-    version: 4.2.3
-    url: https://github.com/eclipse-vertx/vertx-sql-client
   drift-protocol:
     cpeName: drift-protocol
     version: 1.18
@@ -609,7 +616,7 @@ hetu-core:
     version: 1.6
   commons-lang:
     cpeName: commons-lang
-    version: 2.6
+    version: 2.4
   shardingsphere-sql-parser-opengauss:
     cpeName: shardingsphere-sql-parser-opengauss
     version: 5.2.0
@@ -639,23 +646,16 @@ hetu-core:
     cpeName: calcite-linq4j
     version: 1.21.0.151
     url: https://calcite.apache.org/calcite-linq4j
+  netty-codec-xml:
+    cpeName: netty-codec-xml
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-xml/
   util:
     cpeName: util
     version: 1.9.10
-  Jackson-dataformat-YAML:
-    cpeName: Jackson-dataformat-YAML
-    version: 2.11.4
   asm-analysis:
     cpeName: asm-analysis
     version: 7.1
-  netty-codec-redis:
-    cpeName: netty-codec-redis
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-redis/
-  netty-codec-smtp:
-    cpeName: netty-codec-smtp
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-smtp/
   uzaygezen-core:
     cpeName: uzaygezen-core
     version: 0.2
@@ -678,10 +678,6 @@ hetu-core:
     cpeName: hbase-shaded-protobuf
     version: 2.2.1
     url: http://hbase.apache.org/hbase-shaded-protobuf
-  netty-buffer:
-    cpeName: netty-buffer
-    version: 4.1.72.Final
-    url: https://netty.io/netty-buffer/
   jetty-servlet:
     cpeName: jetty-servlet
     version: 9.4.48.v20220622
@@ -702,7 +698,7 @@ hetu-core:
     version: 1.9.0-SNAPSHOT
   snakeyaml:
     cpeName: snakeyaml
-    version: 1.26.0
+    version: 1.33.0
   jdbi3-core:
     cpeName: jdbi3-core
     version: 3.4.0
@@ -710,6 +706,10 @@ hetu-core:
   presto-jmx:
     cpeName: presto-jmx
     version: 1.9.0-SNAPSHOT
+  netty-all:
+    cpeName: netty-all
+    version: 4.1.86.Final
+    url: https://netty.io/netty-all/
   shardingsphere-transaction-core:
     cpeName: shardingsphere-transaction-core
     version: 5.2.0
@@ -740,10 +740,6 @@ hetu-core:
   shardingsphere-sql-parser-postgresql:
     cpeName: shardingsphere-sql-parser-postgresql
     version: 5.2.0
-  netty-transport-classes-kqueue:
-    cpeName: netty-transport-classes-kqueue
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-classes-kqueue/
   presto-orc:
     cpeName: presto-orc
     version: 1.9.0-SNAPSHOT
@@ -771,24 +767,16 @@ hetu-core:
   jersey-hk2:
     cpeName: jersey-hk2
     version: 2.26.0
-  netty-handler:
-    cpeName: netty-handler
-    version: 4.1.72.Final
-    url: https://netty.io/netty-handler/
-  netty-transport-sctp:
-    cpeName: netty-transport-sctp
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-sctp/
   spring-core:
     cpeName: spring-core
     version: 5.3.20
   shardingsphere-jdbc-core:
     cpeName: shardingsphere-jdbc-core
     version: 5.2.0
-  netty-resolver:
-    cpeName: netty-resolver
-    version: 4.1.72.Final
-    url: https://netty.io/netty-resolver/
+  netty-resolver-dns-native-macos:
+    cpeName: netty-resolver-dns-native-macos
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns-native-macos/
   aircompressor:
     cpeName: aircompressor
     version: 0.15
@@ -806,9 +794,6 @@ hetu-core:
   auto-value-annotations:
     cpeName: auto-value-annotations
     version: 1.6.2
-  Jackson-annotations:
-    cpeName: Jackson-annotations
-    version: 2.11.4
   hetu-seed-store:
     cpeName: hetu-seed-store
     version: 1.9.0-SNAPSHOT
@@ -821,6 +806,10 @@ hetu-core:
   shardingsphere-standalone-mode-repository-api:
     cpeName: shardingsphere-standalone-mode-repository-api
     version: 5.2.0
+  netty-codec-socks:
+    cpeName: netty-codec-socks
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-socks/
   shardingsphere-db-discovery-opengauss:
     cpeName: shardingsphere-db-discovery-opengauss
     version: 5.2.0
@@ -846,10 +835,6 @@ hetu-core:
   jnanoid:
     cpeName: jnanoid
     version: 2.0.0
-  zookeeper:
-    cpeName: zookeeper
-    version: 3.6.0
-    url: http://zookeeper.apache.org/zookeeper
   coral-hive:
     cpeName: coral-hive
     version: 2.0.55
@@ -859,13 +844,13 @@ hetu-core:
   docker-java-api:
     cpeName: docker-java-api
     version: 3.2.5
-  netty-codec-mqtt:
-    cpeName: netty-codec-mqtt
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-mqtt/
   shardingsphere-sharding-nanoid:
     cpeName: shardingsphere-sharding-nanoid
     version: 5.2.0
+  netty-resolver-dns-classes-macos:
+    cpeName: netty-resolver-dns-classes-macos
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns-classes-macos/
   hive-shims:
     cpeName: hive-shims
     version: 3.1.2
@@ -879,10 +864,6 @@ hetu-core:
   discovery:
     cpeName: discovery
     version: 0.193
-  netty-resolver-dns-native-macos:
-    cpeName: netty-resolver-dns-native-macos
-    version: 4.1.72.Final
-    url: https://netty.io/netty-resolver-dns-native-macos/
   maven-settings:
     cpeName: maven-settings
     version: 3.0.4
@@ -901,20 +882,16 @@ hetu-core:
   airline:
     cpeName: airline
     version: 0.8
-  netty-tcnative-classes:
-    cpeName: netty-tcnative-classes
-    version: 2.0.46.Final
-    url: https://github.com/netty/netty-tcnative/netty-tcnative-classes/
   hetu-mongodb:
     cpeName: hetu-mongodb
     version: 1.9.0-SNAPSHOT
   joni:
     cpeName: joni
     version: 2.1.5.3
-  vertx-mysql-client:
-    cpeName: vertx-mysql-client
-    version: 4.2.3
-    url: https://github.com/eclipse-vertx/vertx-sql-client
+  netty-codec-http:
+    cpeName: netty-codec-http
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-http/
   aether-connector-file:
     cpeName: aether-connector-file
     version: 1.13.1
@@ -937,10 +914,10 @@ hetu-core:
   google-api-client:
     cpeName: google-api-client
     version: 1.25.0
-  netty-codec-xml:
-    cpeName: netty-codec-xml
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-xml/
+  netty-codec:
+    cpeName: netty-codec
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec/
   kafka_2.10:
     cpeName: kafka_2.10
     version: 0.10.2.2
@@ -956,17 +933,17 @@ hetu-core:
   google-oauth-client:
     cpeName: google-oauth-client
     version: 1.25.0
-  netty-common:
-    cpeName: netty-common
-    version: 4.1.72.Final
-    url: https://netty.io/netty-common/
-  netty-transport-udt:
-    cpeName: netty-transport-udt
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-udt/
   javax.servlet-api:
     cpeName: javax.servlet-api
     version: 4.0.1
+  netty-transport-native-kqueue:
+    cpeName: netty-transport-native-kqueue
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-native-kqueue/
+  netty-handler-ssl-ocsp:
+    cpeName: netty-handler-ssl-ocsp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler-ssl-ocsp/
   shardingsphere-single-table-core:
     cpeName: shardingsphere-single-table-core
     version: 5.2.0
@@ -1014,13 +991,13 @@ hetu-core:
     cpeName: snappy-java
     version: 1.1.8.4
     url: https://github.com/xerial/snappy-java
+  netty-transport-native-epoll:
+    cpeName: netty-transport-native-epoll
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-native-epoll/
   presto-spi:
     cpeName: presto-spi
     version: 1.9.0-SNAPSHOT
-  netty-codec-stomp:
-    cpeName: netty-codec-stomp
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-stomp/
   grpc-netty:
     cpeName: grpc-netty
     version: 1.27.1
@@ -1066,10 +1043,6 @@ hetu-core:
   presto-memory:
     cpeName: presto-memory
     version: 1.9.0-SNAPSHOT
-  netty-all:
-    cpeName: netty-all
-    version: 4.1.72.Final
-    url: https://netty.io/netty-all/
   tpch:
     cpeName: tpch
     version: 0.10
@@ -1095,14 +1068,6 @@ hetu-core:
   flogger-log4j-backend:
     cpeName: flogger-log4j-backend
     version: 0.3.1
-  netty-transport-classes-epoll:
-    cpeName: netty-transport-classes-epoll
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-classes-epoll/
-  netty-codec-dns:
-    cpeName: netty-codec-dns
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-dns/
   xbean-reflect:
     cpeName: xbean-reflect
     version: 3.4
@@ -1137,6 +1102,10 @@ hetu-core:
   presto-kafka:
     cpeName: presto-kafka
     version: 1.9.0-SNAPSHOT
+  netty-codec-stomp:
+    cpeName: netty-codec-stomp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-stomp/
   shardingsphere-sql-parser-sqlserver:
     cpeName: shardingsphere-sql-parser-sqlserver
     version: 5.2.0
@@ -1146,6 +1115,10 @@ hetu-core:
   presto-postgresql:
     cpeName: presto-postgresql
     version: 1.9.0-SNAPSHOT
+  netty-buffer:
+    cpeName: netty-buffer
+    version: 4.1.86.Final
+    url: https://netty.io/netty-buffer/
   Jettison:
     cpeName: Jettison
     version: 1.4.1
@@ -1155,10 +1128,6 @@ hetu-core:
   zkclient:
     cpeName: zkclient
     version: 0.10
-  zookeeper-jute:
-    cpeName: zookeeper-jute
-    version: 3.6.0
-    url: http://zookeeper.apache.org/zookeeper-jute
   elasticjob-lite-core:
     cpeName: elasticjob-lite-core
     version: 3.0.1
@@ -1198,6 +1167,10 @@ hetu-core:
   protobuf-java:
     cpeName: protobuf-java
     version: 3.6.1
+  netty-codec-http2:
+    cpeName: netty-codec-http2
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-http2/
   bcprov-jdk15on:
     cpeName: bcprov-jdk15on
     version: 1.66.0
@@ -1301,14 +1274,14 @@ hetu-core:
   htrace-core4:
     cpeName: htrace-core4
     version: 4.2.0-incubating
-  netty-transport-native-unix-common:
-    cpeName: netty-transport-native-unix-common
-    version: 4.1.45.Final
-    url: https://netty.io/netty-transport-native-unix-common/
   hbase-protocol-shaded:
     cpeName: hbase-protocol-shaded
     version: 2.2.3
     url: https://hbase.apache.org/hbase-build-configuration/hbase-protocol-shaded
+  netty-resolver-dns:
+    cpeName: netty-resolver-dns
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns/
   shardingsphere-single-table-api:
     cpeName: shardingsphere-single-table-api
     version: 5.2.0
@@ -1347,14 +1320,14 @@ hetu-core:
   groovy:
     cpeName: groovy
     version: 4.0.3
-  netty-handler-proxy:
-    cpeName: netty-handler-proxy
-    version: 4.1.72.Final
-    url: https://netty.io/netty-handler-proxy/
   commons-collections:
     cpeName: commons-collections
     version: 3.2.2
     url: http://commons.apache.org/collections/
+  netty-transport-sctp:
+    cpeName: netty-transport-sctp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-sctp/
   shardingsphere-infra-datetime-spi:
     cpeName: shardingsphere-infra-datetime-spi
     version: 5.2.0
@@ -1367,6 +1340,10 @@ hetu-core:
   shardingsphere-distsql-parser:
     cpeName: shardingsphere-distsql-parser
     version: 5.2.0
+  netty-transport-udt:
+    cpeName: netty-transport-udt
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-udt/
   jmx-http-rpc:
     cpeName: jmx-http-rpc
     version: 0.159
@@ -1379,10 +1356,14 @@ hetu-core:
   hetu-kylin:
     cpeName: hetu-kylin
     version: 1.9.0-SNAPSHOT
-  netty-transport-native-kqueue:
-    cpeName: netty-transport-native-kqueue
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-native-kqueue/
+  netty-transport-classes-kqueue:
+    cpeName: netty-transport-classes-kqueue
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-classes-kqueue/
+  netty-handler-proxy:
+    cpeName: netty-handler-proxy
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler-proxy/
   shardingsphere-distsql-statement:
     cpeName: shardingsphere-distsql-statement
     version: 5.2.0
@@ -1417,6 +1398,10 @@ hetu-core:
   presto-atop:
     cpeName: presto-atop
     version: 1.9.0-SNAPSHOT
+  zookeeper:
+    cpeName: zookeeper
+    version: 3.6.3
+    url: http://zookeeper.apache.org/zookeeper
   jersey-media-jaxb:
     cpeName: jersey-media-jaxb
     version: 2.26.0
@@ -1426,6 +1411,10 @@ hetu-core:
   maven-aether-provider:
     cpeName: maven-aether-provider
     version: 3.0.4
+  netty-common:
+    cpeName: netty-common
+    version: 4.1.86.Final
+    url: https://netty.io/netty-common/
   jetty-jmx:
     cpeName: jetty-jmx
     version: 9.4.48.v20220622
@@ -1435,10 +1424,6 @@ hetu-core:
   aspectjweaver:
     cpeName: aspectjweaver
     version: 1.9.4
-  netty-codec-haproxy:
-    cpeName: netty-codec-haproxy
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-haproxy/
   hbase-hadoop-compat:
     cpeName: hbase-hadoop-compat
     version: 2.2.3
@@ -1449,14 +1434,6 @@ hetu-core:
   kotlin-stdlib-common:
     cpeName: kotlin-stdlib-common
     version: 1.4.30
-  vertx-core:
-    cpeName: vertx-core
-    version: 4.2.3
-    url: http://nexus.sonatype.org/oss-repository-hosting.html/vertx-parent/vertx-core
-  netty-codec-http2:
-    cpeName: netty-codec-http2
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-http2/
   shardingsphere-sql-translator-native-provider:
     cpeName: shardingsphere-sql-translator-native-provider
     version: 5.2.0
@@ -1493,6 +1470,9 @@ hetu-core:
   presto-hive-hadoop2:
     cpeName: presto-hive-hadoop2
     version: 1.9.0-SNAPSHOT
+  jackson-dataformat-smile:
+    cpeName: jackson-dataformat-smile
+    version: 2.14.0
   presto-geospatial-toolkit:
     cpeName: presto-geospatial-toolkit
     version: 1.9.0-SNAPSHOT
@@ -1542,6 +1522,10 @@ hetu-core:
   shardingsphere-sql-parser-mysql:
     cpeName: shardingsphere-sql-parser-mysql
     version: 5.2.0
+  netty-transport:
+    cpeName: netty-transport
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport/
   shardingsphere-parser-core:
     cpeName: shardingsphere-parser-core
     version: 5.2.0
@@ -1551,10 +1535,6 @@ hetu-core:
   http-server:
     cpeName: http-server
     version: 0.193
-  netty-codec-memcache:
-    cpeName: netty-codec-memcache
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-memcache/
   commons-exec:
     cpeName: commons-exec
     version: 1.3
@@ -1580,6 +1560,10 @@ hetu-core:
   iceberg-bundled-guava:
     cpeName: iceberg-bundled-guava
     version: 0.13.1
+  netty-codec-smtp:
+    cpeName: netty-codec-smtp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-smtp/
   hetu-hana:
     cpeName: hetu-hana
     version: 1.9.0-SNAPSHOT
@@ -1605,10 +1589,6 @@ hetu-core:
     cpeName: hbase-http
     version: 2.2.3
     url: https://hbase.apache.org/hbase-build-configuration/hbase-http
-  netty-codec-http:
-    cpeName: netty-codec-http
-    version: 4.1.72.Final
-    url: https://netty.io/netty-codec-http/
   libsvm:
     cpeName: libsvm
     version: 3.18.1
@@ -1621,6 +1601,10 @@ hetu-core:
   hetu-dm:
     cpeName: hetu-dm
     version: 1.9.0-SNAPSHOT
+  netty-handler:
+    cpeName: netty-handler
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler/
   presto-sqlserver:
     cpeName: presto-sqlserver
     version: 1.9.0-SNAPSHOT
@@ -1636,10 +1620,6 @@ hetu-core:
   hetu-clickhouse:
     cpeName: hetu-clickhouse
     version: 1.9.0-SNAPSHOT
-  netty-transport-rxtx:
-    cpeName: netty-transport-rxtx
-    version: 4.1.72.Final
-    url: https://netty.io/netty-transport-rxtx/
   shardingsphere-parser-api:
     cpeName: shardingsphere-parser-api
     version: 5.2.0
@@ -1683,12 +1663,20 @@ hetu-core:
   hetu-mariadb:
     cpeName: hetu-mariadb
     version: 1.9.0-SNAPSHOT
+  netty-codec-redis:
+    cpeName: netty-codec-redis
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-redis/
   shardingsphere-encrypt-api:
     cpeName: shardingsphere-encrypt-api
     version: 5.2.0
   http-client:
     cpeName: http-client
     version: 0.193
+  netty-codec-haproxy:
+    cpeName: netty-codec-haproxy
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-haproxy/
   httpasyncclient:
     cpeName: httpasyncclient
     version: 4.1.2
