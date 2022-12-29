@@ -1,452 +1,1138 @@
 hetu-core:
-  json-smart:
-    cpeName: json-smart
-    version: 2.3
-  google-extensions:
-    cpeName: google-extensions
-    version: 0.3.1
-  error_prone_annotations:
-    cpeName: error_prone_annotations
-    version: 2.3.2
-  configuration:
-    cpeName: configuration
-    version: 0.193
-  google-api-services-storage-v1-rev136:
-    cpeName: google-api-services-storage-v1-rev136
-    version: 1.25.0
-  javax.annotation-api:
-    cpeName: javax.annotation-api
-    version: 1.3.2
-  coral-common:
-    cpeName: coral-common
-    version: 2.0.55
-  mchange-commons-java:
-    cpeName: mchange-commons-java
-    version: 0.2.15
-  okhttp:
-    cpeName: okhttp
-    version: 3.9.0
-  joda-to-java-time-bridge:
-    cpeName: joda-to-java-time-bridge
-    version: 3
-  log:
-    cpeName: log
-    version: 0.193
-  bootstrap:
-    cpeName: bootstrap
-    version: 0.193
-  eclipse-collections-api:
-    cpeName: eclipse-collections-api
-    version: 11.1.0
-  slf4j-api:
-    cpeName: slf4j-api
-    version: 1.7.29
-  jetty-security:
-    cpeName: jetty-security
-    version: 9.4.48.v20220622
-  aws-java-sdk-glue:
-    cpeName: aws-java-sdk-glue
-    version: 1.11.445
-  cosid-core:
-    cpeName: cosid-core
-    version: 1.14.4
-  hetu-datacenter:
-    cpeName: hetu-datacenter
-    version: 1.9.0-SNAPSHOT
-  jol-core:
-    cpeName: jol-core
-    version: 0.2
-  logback-core:
-    cpeName: logback-core
-    version: 1.2.9
-  animal-sniffer-annotations:
-    cpeName: animal-sniffer-annotations
-    version: 1.14
-  presto-memory-context:
-    cpeName: presto-memory-context
-    version: 1.9.0-SNAPSHOT
-  jmespath-java:
-    cpeName: jmespath-java
-    version: 1.11.445
-  jcl-over-slf4j:
-    cpeName: jcl-over-slf4j
-    version: 1.7.29
-  MinLog:
-    cpeName: MinLog
-    version: 1.3.1
-  jackson-datatype-guava:
-    cpeName: jackson-datatype-guava
+  jackson-datatype-joda:
+    cpeName: jackson-datatype-joda
     version: 2.14.0
-  stats:
-    cpeName: stats
-    version: 0.193
-  aether-impl:
-    cpeName: aether-impl
-    version: 1.13.1
-  jackson-datatype-jsr310:
-    cpeName: jackson-datatype-jsr310
-    version: 2.14.0
-  guice:
-    cpeName: guice
-    version: 4.2.2
-  Jackson-core:
-    cpeName: Jackson-core
-    version: 2.14.0
-  coral-trino-parser:
-    cpeName: coral-trino-parser
-    version: 2.0.55
-  jjwt:
-    cpeName: jjwt
-    version: 0.9.0
-    url: http://nexus.sonatype.org/oss-repository-hosting.html/jjwt
-  picocli:
-    cpeName: picocli
-    version: 4.6.3
-  antlr4-runtime:
-    cpeName: antlr4-runtime
-    version: 4.7.1
-    url: http://www.antlr.org/runtime/antlr4-runtime
-  re2j-td:
-    cpeName: re2j-td
-    version: 1.4
-  flogger-system-backend:
-    cpeName: flogger-system-backend
-    version: 0.3.1
-  jetty-server:
-    cpeName: jetty-server
-    version: 9.4.48.v20220622
-  elasticjob-tracing-rdb:
-    cpeName: elasticjob-tracing-rdb
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-tracing/elasticjob-tracing-rdb/
-  aopalliance:
-    cpeName: aopalliance
-    version: 1.0
-  checker-qual:
-    cpeName: checker-qual
-    version: 2.5.2
-    url: https://checkerframework.org
-  http2-server:
-    cpeName: http2-server
-    version: 9.4.48.v20220622
-  httpcore:
-    cpeName: httpcore
-    version: 4.4.13
-    url: http://hc.apache.org/httpcomponents-core-ga
-  Jackson-annotations:
-    cpeName: Jackson-annotations
-    version: 2.14.0
-  presto-plugin-toolkit:
-    cpeName: presto-plugin-toolkit
-    version: 1.9.0-SNAPSHOT
-  janino:
-    cpeName: janino
-    version: 3.0.11
-    url: http://janino.net
-  disruptor:
-    cpeName: disruptor
-    version: 3.3.6
-  hadoop-apache:
-    cpeName: hadoop-apache
-    version: 3.2.0-8
-  org.apache.ivy:
-    cpeName: org.apache.ivy
-    version: 2.4.0
-  google-api-client-java6:
-    cpeName: google-api-client-java6
-    version: 1.25.0
-  cglib-nodep:
-    cpeName: cglib-nodep
-    version: 3.3.0
-  presto-local-file:
-    cpeName: presto-local-file
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-sharding-cosid:
-    cpeName: shardingsphere-sharding-cosid
-    version: 5.2.0
-  presto-rcfile:
-    cpeName: presto-rcfile
-    version: 1.9.0-SNAPSHOT
-  jackson-datatype-jdk8:
-    cpeName: jackson-datatype-jdk8
-    version: 2.14.0
-  libthrift:
-    cpeName: libthrift
-    version: 0.9.3-1
-  org.apache.lucene:
-    cpeName: org.apache.lucene
-    version: 7.0.1
-  maven-artifact:
-    cpeName: maven-artifact
-    version: 3.6.0
-    url: https://maven.apache.org/ref/3.6.0/maven-artifact/
-  commons-pool2:
-    cpeName: commons-pool2
-    version: 2.8.0
-    url: https://commons.apache.org/proper/commons-pool/
-  jsr305:
-    cpeName: jsr305
-    version: 3.0.2
-  log-manager:
-    cpeName: log-manager
-    version: 0.193
-  shardingsphere-sql-translator-api:
-    cpeName: shardingsphere-sql-translator-api
-    version: 5.2.0
-  asm:
-    cpeName: asm
-    version: 7.1
-  jetty-http:
-    cpeName: jetty-http
-    version: 9.4.48.v20220622
-  j2objc-annotations:
-    cpeName: j2objc-annotations
-    version: 1.1
-  guava:
-    cpeName: guava
-    version: 26.0.0.jre
-  async-http-client:
-    cpeName: async-http-client
-    version: 1.6.5
-  hive-contrib:
-    cpeName: hive-contrib
-    version: 3.1.2
-  validation-api:
-    cpeName: validation-api
-    version: 2.0.1.Final
   json:
     cpeName: json
     version: 0.193
-  hetu-filesystem-client:
-    cpeName: hetu-filesystem-client
-    version: 1.9.0-SNAPSHOT
-  jackson-dataformat-cbor:
-    cpeName: jackson-dataformat-cbor
-    version: 2.8.6
-  bval-jsr:
-    cpeName: bval-jsr
-    version: 2.0.0
-    url: http://bval.apache.org/bval-jsr/
-  failsafe:
-    cpeName: failsafe
-    version: 2.0.1
-  jmxutils:
-    cpeName: jmxutils
-    version: 1.21
-  jline:
-    cpeName: jline
-    version: 3.21.0
-  plexus-utils:
-    cpeName: plexus-utils
+  hetu-transport:
+    cpeName: hetu-transport
+    version: 1.10.0-SNAPSHOT
+  validation-api:
+    cpeName: validation-api
+    version: 2.0.1.Final
+  jsr305:
+    cpeName: jsr305
+    version: 3.0.2
+  org.apache.ivy:
+    cpeName: org.apache.ivy
+    version: 2.4.0
+  presto-postgresql:
+    cpeName: presto-postgresql
+    version: 1.10.0-SNAPSHOT
+  cglib-nodep:
+    cpeName: cglib-nodep
     version: 3.3.0
-  parameternames:
-    cpeName: parameternames
-    version: 1.4
-  iceberg-core:
-    cpeName: iceberg-core
-    version: 0.13.1
-  elsa:
-    cpeName: elsa
-    version: 3.0.0.M5
-  commons-io:
-    cpeName: commons-io
-    version: 2.8.0
-  shardingsphere-schedule-core:
-    cpeName: shardingsphere-schedule-core
-    version: 5.2.0
-  google-http-client:
-    cpeName: google-http-client
-    version: 1.25.0
-  fastutil:
-    cpeName: fastutil
-    version: 6.5.9
-  Objenesis:
-    cpeName: Objenesis
-    version: 3.1
-    url: http://objenesis.org
-  shardingsphere-sql-parser-spi:
-    cpeName: shardingsphere-sql-parser-spi
-    version: 5.2.0
-  concurrent:
-    cpeName: concurrent
-    version: 0.193
-  presto-redis:
-    cpeName: presto-redis
-    version: 1.9.0-SNAPSHOT
-  kryo:
-    cpeName: kryo
-    version: 5.0.3
-  opencsv:
-    cpeName: opencsv
-    version: 2.3
-  security:
-    cpeName: security
-    version: 0.193
-  presto-parser:
-    cpeName: presto-parser
-    version: 1.9.0-SNAPSHOT
-  jersey-container-servlet-core:
-    cpeName: jersey-container-servlet-core
-    version: 2.26.0
-  commons-dbcp2:
-    cpeName: commons-dbcp2
-    version: 2.6.0
-    url: http://commons.apache.org/dbcp/
-  netty-transport-native-unix-common:
-    cpeName: netty-transport-native-unix-common
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-native-unix-common/
-  reflectasm:
-    cpeName: reflectasm
-    version: 1.11.9
-  sketches-core:
-    cpeName: sketches-core
-    version: 0.9.0
-  hetu-vdm:
-    cpeName: hetu-vdm
-    version: 1.9.0-SNAPSHOT
-  hbase-protocol:
-    cpeName: hbase-protocol
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-protocol
-  presto-base-jdbc:
-    cpeName: presto-base-jdbc
-    version: 1.9.0-SNAPSHOT
   org.joda.time:
     cpeName: org.joda.time
     version: 2.10.8
     url: https://www.joda.org/joda-time/
-  commons-lang3:
-    cpeName: commons-lang3
-    version: 3.10
-  http2-http-client-transport:
-    cpeName: http2-http-client-transport
-    version: 9.4.48.v20220622
-  maven-model:
-    cpeName: maven-model
-    version: 3.0.4
-  json-path:
-    cpeName: json-path
-    version: 2.4.0
-  commons-compiler:
-    cpeName: commons-compiler
-    version: 3.0.11
-  netty-codec-dns:
-    cpeName: netty-codec-dns
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-dns/
-  Jackson-module-parameter-names:
-    cpeName: Jackson-module-parameter-names
-    version: 2.14.0
-  presto-client:
-    cpeName: presto-client
-    version: 1.9.0-SNAPSHOT
-  HdrHistogram:
-    cpeName: HdrHistogram
-    version: 2.1.9
-  docker-java-transport:
-    cpeName: docker-java-transport
-    version: 3.2.5
-  postgresql:
-    cpeName: postgresql
-    version: 42.2.14
-  presto-ml:
-    cpeName: presto-ml
-    version: 1.9.0-SNAPSHOT
-  google-api-client-jackson2:
-    cpeName: google-api-client-jackson2
-    version: 1.25.0
-  aws-java-sdk-kms:
-    cpeName: aws-java-sdk-kms
-    version: 1.11.445
-  presto-resource-group-managers:
-    cpeName: presto-resource-group-managers
-    version: 1.9.0-SNAPSHOT
-  zookeeper-jute:
-    cpeName: zookeeper-jute
-    version: 3.6.3
-    url: http://zookeeper.apache.org/zookeeper-jute
-  shardingsphere-standalone-mode-repository-jdbc-h2:
-    cpeName: shardingsphere-standalone-mode-repository-jdbc-h2
+  checker-qual:
+    cpeName: checker-qual
+    version: 2.5.2
+    url: https://checkerframework.org
+  logback-core:
+    cpeName: logback-core
+    version: 1.2.9
+  mongodb:
+    cpeName: mongodb
+    version: 1.15.0
+  shardingsphere-infra-datetime-spi:
+    cpeName: shardingsphere-infra-datetime-spi
     version: 5.2.0
+  security:
+    cpeName: security
+    version: 0.193
   jackson-databind:
     cpeName: jackson-databind
     version: 2.14.0
-  netty-codec-memcache:
-    cpeName: netty-codec-memcache
+  commons-pool2:
+    cpeName: commons-pool2
+    version: 2.8.0
+    url: https://commons.apache.org/proper/commons-pool/
+  Jackson-core:
+    cpeName: Jackson-core
+    version: 2.14.0
+  jackson-datatype-jsr310:
+    cpeName: jackson-datatype-jsr310
+    version: 2.14.0
+  hbase-shaded-protobuf:
+    cpeName: hbase-shaded-protobuf
+    version: 2.2.1
+    url: http://hbase.apache.org/hbase-shaded-protobuf
+  elasticjob-api:
+    cpeName: elasticjob-api
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-api/
+  jackson-datatype-guava:
+    cpeName: jackson-datatype-guava
+    version: 2.14.0
+  annotations:
+    cpeName: annotations
+    version: 13.0
+  memory:
+    cpeName: memory
+    version: 0.9.0
+  log:
+    cpeName: log
+    version: 0.193
+  mchange-commons-java:
+    cpeName: mchange-commons-java
+    version: 0.2.15
+  aws-java-sdk-core:
+    cpeName: aws-java-sdk-core
+    version: 1.11.445
+  bval-jsr:
+    cpeName: bval-jsr
+    version: 2.0.0
+    url: http://bval.apache.org/bval-jsr/
+  httpclient:
+    cpeName: httpclient
+    version: 4.5.13
+    url: http://hc.apache.org/httpcomponents-client
+  avro:
+    cpeName: avro
+    version: 1.9.2
+    url: https://avro.apache.org
+  HdrHistogram:
+    cpeName: HdrHistogram
+    version: 2.1.9
+  postgresql:
+    cpeName: postgresql
+    version: 42.2.14
+  presto-matching:
+    cpeName: presto-matching
+    version: 1.10.0-SNAPSHOT
+  proto-google-common-protos:
+    cpeName: proto-google-common-protos
+    version: 1.17.0
+  auto-value-annotations:
+    cpeName: auto-value-annotations
+    version: 1.6.2
+  coral-common:
+    cpeName: coral-common
+    version: 2.0.55
+  units:
+    cpeName: units
+    version: 1.3
+  failsafe:
+    cpeName: failsafe
+    version: 2.0.1
+  hetu-greenplum:
+    cpeName: hetu-greenplum
+    version: 1.10.0-SNAPSHOT
+  presto-expressions:
+    cpeName: presto-expressions
+    version: 1.10.0-SNAPSHOT
+  grpc-protobuf-lite:
+    cpeName: grpc-protobuf-lite
+    version: 1.27.1
+  log-manager:
+    cpeName: log-manager
+    version: 0.193
+  slf4j-jdk14:
+    cpeName: slf4j-jdk14
+    version: 1.7.29
+  curator-client:
+    cpeName: curator-client
+    version: 5.1.0
+  guava:
+    cpeName: guava
+    version: 26.0.0.jre
+  presto-plugin-toolkit:
+    cpeName: presto-plugin-toolkit
+    version: 1.10.0-SNAPSHOT
+  bootstrap:
+    cpeName: bootstrap
+    version: 0.193
+  asm-analysis:
+    cpeName: asm-analysis
+    version: 7.1
+  coral-hive:
+    cpeName: coral-hive
+    version: 2.0.55
+  presto-resource-group-managers:
+    cpeName: presto-resource-group-managers
+    version: 1.10.0-SNAPSHOT
+  Jackson-dataformat-YAML:
+    cpeName: Jackson-dataformat-YAML
+    version: 2.14.0
+  netty-transport-classes-kqueue:
+    cpeName: netty-transport-classes-kqueue
     version: 4.1.86.Final
-    url: https://netty.io/netty-codec-memcache/
+    url: https://netty.io/netty-transport-classes-kqueue/
+  javax.annotation-api:
+    cpeName: javax.annotation-api
+    version: 1.3.2
+  shardingsphere-infra-context:
+    cpeName: shardingsphere-infra-context
+    version: 5.2.0
+  hetu-opengauss:
+    cpeName: hetu-opengauss
+    version: 1.10.0-SNAPSHOT
+  ST4:
+    cpeName: ST4
+    version: 4.0.4
+  janino:
+    cpeName: janino
+    version: 3.0.11
+    url: http://janino.net
+  animal-sniffer-annotations:
+    cpeName: animal-sniffer-annotations
+    version: 1.14
+  caffeine:
+    cpeName: caffeine
+    version: 2.7.0
+  org.apache.lucene:
+    cpeName: org.apache.lucene
+    version: 7.2.1
+  guice:
+    cpeName: guice
+    version: 4.2.2
+  aopalliance:
+    cpeName: aopalliance
+    version: 1.0
+  presto-main:
+    cpeName: presto-main
+    version: 1.10.0-SNAPSHOT
+  configuration:
+    cpeName: configuration
+    version: 0.193
+  hetu-hazelcast:
+    cpeName: hetu-hazelcast
+    version: 1.10.0-SNAPSHOT
+  antlr4-runtime:
+    cpeName: antlr4-runtime
+    version: 4.7.1
+    url: http://www.antlr.org/runtime/antlr4-runtime
+  presto-base-jdbc:
+    cpeName: presto-base-jdbc
+    version: 1.10.0-SNAPSHOT
+  google-oauth-client-java6:
+    cpeName: google-oauth-client-java6
+    version: 1.25.0
+  Jackson-module-parameter-names:
+    cpeName: Jackson-module-parameter-names
+    version: 2.14.0
+  j2objc-annotations:
+    cpeName: j2objc-annotations
+    version: 1.1
+  log4j-over-slf4j:
+    cpeName: log4j-over-slf4j
+    version: 1.7.29
+  snappy-java:
+    cpeName: snappy-java
+    version: 1.1.8.4
+    url: https://github.com/xerial/snappy-java
+  MinLog:
+    cpeName: MinLog
+    version: 1.3.1
+  jmxutils:
+    cpeName: jmxutils
+    version: 1.21
+  jcl-over-slf4j:
+    cpeName: jcl-over-slf4j
+    version: 1.7.29
+  aws-java-sdk-kms:
+    cpeName: aws-java-sdk-kms
+    version: 1.11.445
+  concurrent:
+    cpeName: concurrent
+    version: 0.193
+  error_prone_annotations:
+    cpeName: error_prone_annotations
+    version: 2.3.2
+  shardingsphere-infra-route:
+    cpeName: shardingsphere-infra-route
+    version: 5.2.0
+  presto-memory-context:
+    cpeName: presto-memory-context
+    version: 1.10.0-SNAPSHOT
+  jackson-datatype-jdk8:
+    cpeName: jackson-datatype-jdk8
+    version: 2.14.0
+  presto-parser:
+    cpeName: presto-parser
+    version: 1.10.0-SNAPSHOT
+  elsa:
+    cpeName: elsa
+    version: 3.0.0.M5
+  aggdesigner-algorithm:
+    cpeName: aggdesigner-algorithm
+    version: 6.0
+  presto-tpch:
+    cpeName: presto-tpch
+    version: 1.10.0-SNAPSHOT
+  maven-plugin-api:
+    cpeName: maven-plugin-api
+    version: 3.0.4
+  hadoop-apache:
+    cpeName: hadoop-apache
+    version: 3.2.0-8
+  presto-hive:
+    cpeName: presto-hive
+    version: 1.10.0-SNAPSHOT
+  hetu-hbase:
+    cpeName: hetu-hbase
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-sql-parser-sqlserver:
+    cpeName: shardingsphere-sql-parser-sqlserver
+    version: 5.2.0
+  hudi-common:
+    cpeName: hudi-common
+    version: 0.7.0
+    url: https://github.com/apache/hudi/hudi-common
+  Jackson-annotations:
+    cpeName: Jackson-annotations
+    version: 2.14.0
+  maven-embedder:
+    cpeName: maven-embedder
+    version: 3.0.4
   jaxb-api:
     cpeName: jaxb-api
     version: 2.3.0
-  metrics-core:
-    cpeName: metrics-core
-    version: 2.2.0
-  sql-formatter:
-    cpeName: sql-formatter
-    version: 2.0.2
-  jackson-datatype-joda:
-    cpeName: jackson-datatype-joda
-    version: 2.14.0
-  hetu-cube:
-    cpeName: hetu-cube
-    version: 1.9.0-SNAPSHOT
-  hive-apache:
-    cpeName: hive-apache
-    version: 3.1.2-1
-  jetty-io:
-    cpeName: jetty-io
-    version: 9.4.48.v20220622
-  presto-expressions:
-    cpeName: presto-expressions
-    version: 1.9.0-SNAPSHOT
-  hetu-hbase:
-    cpeName: hetu-hbase
-    version: 1.9.0-SNAPSHOT
-  calcite-core:
-    cpeName: calcite-core
-    version: 1.12.0
-    url: https://calcite.apache.org/calcite-core
-  shardingsphere-authority-api:
-    cpeName: shardingsphere-authority-api
+  jersey-container-servlet-core:
+    cpeName: jersey-container-servlet-core
+    version: 2.26.0
+  shardingsphere-sharding-nanoid:
+    cpeName: shardingsphere-sharding-nanoid
     version: 5.2.0
-  hetu-oracle:
-    cpeName: hetu-oracle
-    version: 1.9.0-SNAPSHOT
-  hamcrest-core:
-    cpeName: hamcrest-core
+  google-api-client:
+    cpeName: google-api-client
+    version: 1.25.0
+  jgrapht-core:
+    cpeName: jgrapht-core
+    version: 0.8.4.dev
+  slf4j-api:
+    cpeName: slf4j-api
+    version: 1.7.29
+  commons-text:
+    cpeName: commons-text
     version: 1.3
-  maven-model-builder:
-    cpeName: maven-model-builder
-    version: 3.0.4
-  httpcore-nio:
-    cpeName: httpcore-nio
-    version: 4.4.5
-  avatica-metrics:
-    cpeName: avatica-metrics
-    version: 1.18.0
-    url: https://calcite.apache.org/avatica/avatica-metrics
-  commons-codec:
-    cpeName: commons-codec
-    version: 1.14
-  okhttp-urlconnection:
-    cpeName: okhttp-urlconnection
-    version: 3.9.0
-  avatica-core:
-    cpeName: avatica-core
-    version: 1.9.0
-    url: https://calcite.apache.org/avatica/shaded/avatica-core
+    url: http://commons.apache.org/proper/commons-text/
+  protobuf-java:
+    cpeName: protobuf-java
+    version: 2.5.0
+  elasticjob-error-handler-spi:
+    cpeName: elasticjob-error-handler-spi
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-error-handler/elasticjob-error-handler-spi/
+  hk2-locator:
+    cpeName: hk2-locator
+    version: 2.5.0.b42
+  elasticjob-simple-executor:
+    cpeName: elasticjob-simple-executor
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-simple-executor/
+  shardingsphere-single-table-core:
+    cpeName: shardingsphere-single-table-core
+    version: 5.2.0
+  hetu-function-namespace-managers:
+    cpeName: hetu-function-namespace-managers
+    version: 1.10.0-SNAPSHOT
+  esri-geometry-api:
+    cpeName: esri-geometry-api
+    version: 2.2.2
+  aircompressor:
+    cpeName: aircompressor
+    version: 0.15
+  presto-teradata-functions:
+    cpeName: presto-teradata-functions
+    version: 1.10.0-SNAPSHOT
+  hive-contrib:
+    cpeName: hive-contrib
+    version: 3.1.2
+  joni:
+    cpeName: joni
+    version: 2.1.5.3
+  calcite-linq4j:
+    cpeName: calcite-linq4j
+    version: 1.27.0
+    url: https://calcite.apache.org/calcite-linq4j
+  hppc:
+    cpeName: hppc
+    version: 0.7.1
+  Objenesis:
+    cpeName: Objenesis
+    version: 3.1
+    url: http://objenesis.org
+  gcs-connector-hadoop2:
+    cpeName: gcs-connector-hadoop2
+    version: 1.9.10
+  drift-codec:
+    cpeName: drift-codec
+    version: 1.18
+  jmespath-java:
+    cpeName: jmespath-java
+    version: 1.11.445
+  jersey-hk2:
+    cpeName: jersey-hk2
+    version: 2.26.0
+  elasticsearch-rest-client:
+    cpeName: elasticsearch-rest-client
+    version: 6.0.0
+  jetty-util:
+    cpeName: jetty-util
+    version: 9.4.48.v20220622
+  shardingsphere-system-datetime:
+    cpeName: shardingsphere-system-datetime
+    version: 5.2.0
+  spring-core:
+    cpeName: spring-core
+    version: 5.3.20
+  mongo-java-driver:
+    cpeName: mongo-java-driver
+    version: 3.6.0
+  stats:
+    cpeName: stats
+    version: 0.193
+  jetty-http:
+    cpeName: jetty-http
+    version: 9.4.48.v20220622
+  shardingsphere-infra-federation-optimizer:
+    cpeName: shardingsphere-infra-federation-optimizer
+    version: 5.2.0
+  httpcore:
+    cpeName: httpcore
+    version: 4.4.13
+    url: http://hc.apache.org/httpcomponents-core-ga
+  hetu-datacenter:
+    cpeName: hetu-datacenter
+    version: 1.10.0-SNAPSHOT
+  hetu-vdm:
+    cpeName: hetu-vdm
+    version: 1.10.0-SNAPSHOT
+  hive-shims:
+    cpeName: hive-shims
+    version: 3.1.2
+  netty-transport-native-kqueue:
+    cpeName: netty-transport-native-kqueue
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-native-kqueue/
+  aws-java-sdk-glue:
+    cpeName: aws-java-sdk-glue
+    version: 1.11.445
+  jdbi3-core:
+    cpeName: jdbi3-core
+    version: 3.4.0
+    url: http://jdbi.org/
+  hive-upgrade-acid:
+    cpeName: hive-upgrade-acid
+    version: 3.1.2
+    url: https://www.apache.org/hive-upgrade-acid/
+  libthrift:
+    cpeName: libthrift
+    version: 0.9.3-1
+  joda-to-java-time-bridge:
+    cpeName: joda-to-java-time-bridge
+    version: 3
+  shims:
+    cpeName: shims
+    version: 0.9.0
+  wagon-provider-api:
+    cpeName: wagon-provider-api
+    version: 2.2
+  hbase-protocol:
+    cpeName: hbase-protocol
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-protocol
+  javassist:
+    cpeName: javassist
+    version: 3.22.0.GA
+  jts-core:
+    cpeName: jts-core
+    version: 1.15.0
+  jetty-security:
+    cpeName: jetty-security
+    version: 9.4.48.v20220622
+  presto-array:
+    cpeName: presto-array
+    version: 1.10.0-SNAPSHOT
+  parameternames:
+    cpeName: parameternames
+    version: 1.4
+  hetu-common:
+    cpeName: hetu-common
+    version: 1.10.0-SNAPSHOT
   hudi-hadoop-mr:
     cpeName: hudi-hadoop-mr
     version: 0.7.0
     url: https://github.com/apache/hudi/hudi-hadoop-mr
-  http2-client:
-    cpeName: http2-client
+  netty-codec-http:
+    cpeName: netty-codec-http
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-http/
+  eclipse-collections-forkjoin:
+    cpeName: eclipse-collections-forkjoin
+    version: 11.1.0
+  xbean-reflect:
+    cpeName: xbean-reflect
+    version: 3.4
+  snakeyaml:
+    cpeName: snakeyaml
+    version: 1.30.0
+  presto-mysql:
+    cpeName: presto-mysql
+    version: 1.10.0-SNAPSHOT
+  maven-compat:
+    cpeName: maven-compat
+    version: 3.0.4
+  jmx:
+    cpeName: jmx
+    version: 0.193
+  google-http-client-jackson2:
+    cpeName: google-http-client-jackson2
+    version: 1.25.0
+  metrics-core:
+    cpeName: metrics-core
+    version: 2.2.0
+  docker-java-transport:
+    cpeName: docker-java-transport
+    version: 3.2.5
+  commons-compiler:
+    cpeName: commons-compiler
+    version: 2.7.6
+  asm-util:
+    cpeName: asm-util
+    version: 6.2.1
+  com.sun.jna:
+    cpeName: com.sun.jna
+    version: 4.4.0-1
+  shardingsphere-sql-parser-spi:
+    cpeName: shardingsphere-sql-parser-spi
+    version: 5.2.0
+  presto-rcfile:
+    cpeName: presto-rcfile
+    version: 1.10.0-SNAPSHOT
+  http2-hpack:
+    cpeName: http2-hpack
     version: 9.4.48.v20220622
+  calcite-core:
+    cpeName: calcite-core
+    version: 1.27.0
+    url: https://calcite.apache.org/calcite-core
+  netty-handler-proxy:
+    cpeName: netty-handler-proxy
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler-proxy/
+  jopt-simple:
+    cpeName: jopt-simple
+    version: 5.0.3
+  mysql-connector-java:
+    cpeName: mysql-connector-java
+    version: 5.1.49
+  netty-transport-sctp:
+    cpeName: netty-transport-sctp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-sctp/
+  shardingsphere-mode-core:
+    cpeName: shardingsphere-mode-core
+    version: 5.2.0
+  elasticjob-script-executor:
+    cpeName: elasticjob-script-executor
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-script-executor/
+  hamcrest-core:
+    cpeName: hamcrest-core
+    version: 1.3
+  shardingsphere-parser-core:
+    cpeName: shardingsphere-parser-core
+    version: 5.2.0
+  google-api-client-java6:
+    cpeName: google-api-client-java6
+    version: 1.25.0
+  iceberg-hive-metastore:
+    cpeName: iceberg-hive-metastore
+    version: 0.13.1
+  aws-java-sdk-sts:
+    cpeName: aws-java-sdk-sts
+    version: 1.11.445
+  shardingsphere-cluster-mode-core:
+    cpeName: shardingsphere-cluster-mode-core
+    version: 5.2.0
+  netty-resolver-dns-native-macos:
+    cpeName: netty-resolver-dns-native-macos
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns-native-macos/
+  coral-trino-parser:
+    cpeName: coral-trino-parser
+    version: 2.0.55
+  mariadb-java-client:
+    cpeName: mariadb-java-client
+    version: 2.7.3
+  shardingsphere-cluster-mode-repository-zookeeper-curator:
+    cpeName: shardingsphere-cluster-mode-repository-zookeeper-curator
+    version: 5.2.0
+  flogger:
+    cpeName: flogger
+    version: 0.3.1
+  maven-model-builder:
+    cpeName: maven-model-builder
+    version: 3.0.4
+  okhttp:
+    cpeName: okhttp
+    version: 3.9.0
+  plexus-container-default:
+    cpeName: plexus-container-default
+    version: 1.5.5
+  sketches-core:
+    cpeName: sketches-core
+    version: 0.9.0
+  presto-orc:
+    cpeName: presto-orc
+    version: 1.10.0-SNAPSHOT
+  iceberg-api:
+    cpeName: iceberg-api
+    version: 0.13.1
+  presto-geospatial:
+    cpeName: presto-geospatial
+    version: 1.10.0-SNAPSHOT
+  curator-framework:
+    cpeName: curator-framework
+    version: 5.1.0
+    url: http://curator.apache.org/curator-framework
+  bytecode:
+    cpeName: bytecode
+    version: 1.2
+  presto-local-file:
+    cpeName: presto-local-file
+    version: 1.10.0-SNAPSHOT
+  log4j-core:
+    cpeName: log4j-core
+    version: 2.17.2
+    url: https://logging.apache.org/log4j/2.x/log4j-core/
+  Jackson-dataformat-CBOR:
+    cpeName: Jackson-dataformat-CBOR
+    version: 2.6.7
+  netty-codec-redis:
+    cpeName: netty-codec-redis
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-redis/
+  jetty-server:
+    cpeName: jetty-server
+    version: 9.4.48.v20220622
+  clickhouse-jdbc:
+    cpeName: clickhouse-jdbc
+    version: 0.2.4
+  commons-crypto:
+    cpeName: commons-crypto
+    version: 1.0.0
+    url: http://commons.apache.org/proper/commons-crypto/
+  netty-codec:
+    cpeName: netty-codec
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec/
+  audience-annotations:
+    cpeName: audience-annotations
+    version: 0.5.0
+  jetty-io:
+    cpeName: jetty-io
+    version: 9.4.48.v20220622
+  jol-core:
+    cpeName: jol-core
+    version: 0.2
+  reflectasm:
+    cpeName: reflectasm
+    version: 1.11.9
+  hetu-mongodb:
+    cpeName: hetu-mongodb
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-sharding-core:
+    cpeName: shardingsphere-sharding-core
+    version: 5.2.0
+  flogger-system-backend:
+    cpeName: flogger-system-backend
+    version: 0.3.1
+  shardingsphere-shadow-api:
+    cpeName: shardingsphere-shadow-api
+    version: 5.2.0
+  netty-common:
+    cpeName: netty-common
+    version: 4.1.86.Final
+    url: https://netty.io/netty-common/
+  http-client:
+    cpeName: http-client
+    version: 0.193
+  util-hadoop-hadoop2:
+    cpeName: util-hadoop-hadoop2
+    version: 1.9.10
+  jmx-http:
+    cpeName: jmx-http
+    version: 0.193
+  plexus-interpolation:
+    cpeName: plexus-interpolation
+    version: 1.14
+  sql-formatter:
+    cpeName: sql-formatter
+    version: 2.0.2
+  google-api-services-storage-v1-rev136:
+    cpeName: google-api-services-storage-v1-rev136
+    version: 1.25.0
+  commons-io:
+    cpeName: commons-io
+    version: 2.8.0
+  commons-collections4:
+    cpeName: commons-collections4
+    version: 4.2
+    url: http://commons.apache.org/proper/commons-collections/
+  avatica-metrics:
+    cpeName: avatica-metrics
+    version: 1.18.0
+    url: https://calcite.apache.org/avatica/avatica-metrics
+  shardingsphere-cluster-mode-repository-etcd:
+    cpeName: shardingsphere-cluster-mode-repository-etcd
+    version: 5.2.0
+  event:
+    cpeName: event
+    version: 0.193
+  hetu-filesystem-client:
+    cpeName: hetu-filesystem-client
+    version: 1.10.0-SNAPSHOT
+  gcsio:
+    cpeName: gcsio
+    version: 1.9.10
+  shardingsphere-db-discovery-mysql:
+    cpeName: shardingsphere-db-discovery-mysql
+    version: 5.2.0
+  hive-apache:
+    cpeName: hive-apache
+    version: 3.1.2-1
+  securesm:
+    cpeName: securesm
+    version: 1.1
+  asm-tree:
+    cpeName: asm-tree
+    version: 7.1
+  opengauss-jdbc:
+    cpeName: opengauss-jdbc
+    version: 3.0.0
+  shardingsphere-jdbc-core:
+    cpeName: shardingsphere-jdbc-core
+    version: 5.2.0
+  grpc-core:
+    cpeName: grpc-core
+    version: 1.27.1
+  netty-transport-native-unix-common:
+    cpeName: netty-transport-native-unix-common
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-native-unix-common/
+  google-oauth-client:
+    cpeName: google-oauth-client
+    version: 1.25.0
+  shardingsphere-transaction-core:
+    cpeName: shardingsphere-transaction-core
+    version: 5.2.0
+  avatica-core:
+    cpeName: avatica-core
+    version: 1.15.0
+    url: https://calcite.apache.org/avatica/shaded/avatica-core
+  shardingsphere-db-discovery-opengauss:
+    cpeName: shardingsphere-db-discovery-opengauss
+    version: 5.2.0
+  javax.ws.rs-api:
+    cpeName: javax.ws.rs-api
+    version: 2.1
   curator-recipes:
     cpeName: curator-recipes
     version: 5.1.0
     url: http://curator.apache.org/curator-recipes
+  presto-geospatial-toolkit:
+    cpeName: presto-geospatial-toolkit
+    version: 1.10.0-SNAPSHOT
+  commons-lang3:
+    cpeName: commons-lang3
+    version: 3.11
+  presto-session-property-managers:
+    cpeName: presto-session-property-managers
+    version: 1.10.0-SNAPSHOT
+  iceberg-core:
+    cpeName: iceberg-core
+    version: 0.13.1
+  shardingsphere-shadow-core:
+    cpeName: shardingsphere-shadow-core
+    version: 5.2.0
+  netty-transport-udt:
+    cpeName: netty-transport-udt
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-udt/
+  antlr:
+    cpeName: antlr
+    version: 2.7.7
+  elasticjob-executor-kernel:
+    cpeName: elasticjob-executor-kernel
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-kernel/
+  shardingsphere-standalone-mode-core:
+    cpeName: shardingsphere-standalone-mode-core
+    version: 5.2.0
+  h2:
+    cpeName: h2
+    version: 2.1.214
+    url: https://h2database.com
+  netty-handler-ssl-ocsp:
+    cpeName: netty-handler-ssl-ocsp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler-ssl-ocsp/
+  http-server:
+    cpeName: http-server
+    version: 0.193
+  grpc-context:
+    cpeName: grpc-context
+    version: 1.27.1
+  iceberg-bundled-guava:
+    cpeName: iceberg-bundled-guava
+    version: 0.13.1
+  jersey-media-multipart:
+    cpeName: jersey-media-multipart
+    version: 2.26.0
+  jackson-dataformat-smile:
+    cpeName: jackson-dataformat-smile
+    version: 2.14.0
+  maven-artifact:
+    cpeName: maven-artifact
+    version: 3.6.0
+    url: https://maven.apache.org/ref/3.6.0/maven-artifact/
+  jersey-media-jaxb:
+    cpeName: jersey-media-jaxb
+    version: 2.26.0
+  netty-codec-smtp:
+    cpeName: netty-codec-smtp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-smtp/
+  commons-compress:
+    cpeName: commons-compress
+    version: 1.21
+  google-http-client:
+    cpeName: google-http-client
+    version: 1.25.0
+  presto-example-http:
+    cpeName: presto-example-http
+    version: 1.10.0-SNAPSHOT
+  google-api-client-jackson2:
+    cpeName: google-api-client-jackson2
+    version: 1.25.0
+  drift-transport-spi:
+    cpeName: drift-transport-spi
+    version: 1.18
+  opencsv:
+    cpeName: opencsv
+    version: 2.3
+  jackson-dataformat-cbor:
+    cpeName: jackson-dataformat-cbor
+    version: 2.8.6
+  commons-exec:
+    cpeName: commons-exec
+    version: 1.3
+  zookeeper:
+    cpeName: zookeeper
+    version: 3.6.3
+    url: http://zookeeper.apache.org/zookeeper
+  httpasyncclient:
+    cpeName: httpasyncclient
+    version: 4.1.2
+  iceberg-common:
+    cpeName: iceberg-common
+    version: 0.13.1
+  maven-settings-builder:
+    cpeName: maven-settings-builder
+    version: 3.0.4
+  javax.servlet-api:
+    cpeName: javax.servlet-api
+    version: 4.0.1
+  hk2-utils:
+    cpeName: hk2-utils
+    version: 2.5.0.b42
+  fastutil:
+    cpeName: fastutil
+    version: 6.5.9
+  presto-hive-hadoop2:
+    cpeName: presto-hive-hadoop2
+    version: 1.10.0-SNAPSHOT
+  pcollections:
+    cpeName: pcollections
+    version: 2.1.2
+  httpmime:
+    cpeName: httpmime
+    version: 4.5.2
+  hbase-procedure:
+    cpeName: hbase-procedure
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-procedure
+  jetty-servlet:
+    cpeName: jetty-servlet
+    version: 9.4.48.v20220622
+  util:
+    cpeName: util
+    version: 1.9.10
+  kotlin-stdlib:
+    cpeName: kotlin-stdlib
+    version: 1.4.30
+  accessors-smart:
+    cpeName: accessors-smart
+    version: 1.2
+  hetu-cube:
+    cpeName: hetu-cube
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-sql-parser-statement:
+    cpeName: shardingsphere-sql-parser-statement
+    version: 5.2.0
+  commons-dbcp:
+    cpeName: commons-dbcp
+    version: 1.4
+  shardingsphere-infra-util:
+    cpeName: shardingsphere-infra-util
+    version: 5.2.0
+  uzaygezen-core:
+    cpeName: uzaygezen-core
+    version: 0.2
+  hetu-heuristic-index:
+    cpeName: hetu-heuristic-index
+    version: 1.10.0-SNAPSHOT
+  json-smart:
+    cpeName: json-smart
+    version: 2.3
+  hetu-kylin:
+    cpeName: hetu-kylin
+    version: 1.10.0-SNAPSHOT
+  hk2-api:
+    cpeName: hk2-api
+    version: 2.5.0.b42
+  netty-codec-memcache:
+    cpeName: netty-codec-memcache
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-memcache/
+  protobuf-java-util:
+    cpeName: protobuf-java-util
+    version: 3.11.0
+  presto-parquet:
+    cpeName: presto-parquet
+    version: 1.10.0-SNAPSHOT
+  drift-api:
+    cpeName: drift-api
+    version: 1.18
+  elasticsearch:
+    cpeName: elasticsearch
+    version: 6.0.0
+  trace-token:
+    cpeName: trace-token
+    version: 0.193
+  gson:
+    cpeName: gson
+    version: 2.5
+  async-http-client:
+    cpeName: async-http-client
+    version: 1.6.5
+  docker-java-transport-zerodep:
+    cpeName: docker-java-transport-zerodep
+    version: 3.2.5
+  javax.activation.javax.activation-api:
+    cpeName: javax.activation.javax.activation-api
+    version: 1.2.0
+  shardingsphere-encrypt-api:
+    cpeName: shardingsphere-encrypt-api
+    version: 5.2.0
+  grpc-protobuf:
+    cpeName: grpc-protobuf
+    version: 1.27.1
+  ion-java:
+    cpeName: ion-java
+    version: 1.0.2
+  coral-trino:
+    cpeName: coral-trino
+    version: 2.0.55
+  httpcore-nio:
+    cpeName: httpcore-nio
+    version: 4.4.5
+  RoaringBitmap:
+    cpeName: RoaringBitmap
+    version: 0.9.0
+  presto-memory:
+    cpeName: presto-memory
+    version: 1.10.0-SNAPSHOT
+  kafka_2.10:
+    cpeName: kafka_2.10
+    version: 0.10.2.2
+  hbase-shaded-netty:
+    cpeName: hbase-shaded-netty
+    version: 4.0.0
+  visible-assertions:
+    cpeName: visible-assertions
+    version: 2.1.2
+  hbase-hadoop2-compat:
+    cpeName: hbase-hadoop2-compat
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-hadoop2-compat
+  stringtemplate:
+    cpeName: stringtemplate
+    version: 3.2.1
+  okio:
+    cpeName: okio
+    version: 1.13.0
+  netty-buffer:
+    cpeName: netty-buffer
+    version: 4.1.86.Final
+    url: https://netty.io/netty-buffer/
+  kryo:
+    cpeName: kryo
+    version: 5.0.3
+  event-http:
+    cpeName: event-http
+    version: 0.193
+  presto-client:
+    cpeName: presto-client
+    version: 1.10.0-SNAPSHOT
+  netty-codec-xml:
+    cpeName: netty-codec-xml
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-xml/
+  shardingsphere-traffic-api:
+    cpeName: shardingsphere-traffic-api
+    version: 5.2.0
+  netty-codec-stomp:
+    cpeName: netty-codec-stomp
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-stomp/
+  hbase-http:
+    cpeName: hbase-http
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-http
+  shardingsphere-infra-rewrite:
+    cpeName: shardingsphere-infra-rewrite
+    version: 5.2.0
+  http2-common:
+    cpeName: http2-common
+    version: 9.4.48.v20220622
+  iceberg-orc:
+    cpeName: iceberg-orc
+    version: 0.13.1
+  guice-multibindings:
+    cpeName: guice-multibindings
+    version: 4.2.2
+  jersey-server:
+    cpeName: jersey-server
+    version: 2.26.0
+  jnanoid:
+    cpeName: jnanoid
+    version: 2.0.0
+  kotlin-stdlib-common:
+    cpeName: kotlin-stdlib-common
+    version: 1.4.30
+  presto-elasticsearch:
+    cpeName: presto-elasticsearch
+    version: 1.10.0-SNAPSHOT
+  hbase-zookeeper:
+    cpeName: hbase-zookeeper
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-zookeeper
+  aws-java-sdk-s3:
+    cpeName: aws-java-sdk-s3
+    version: 1.11.445
+  jline:
+    cpeName: jline
+    version: 3.21.0
+  json-path:
+    cpeName: json-path
+    version: 2.4.0
+  testcontainers:
+    cpeName: testcontainers
+    version: 1.15.0
+  hetu-singledata:
+    cpeName: hetu-singledata
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-cluster-mode-repository-api:
+    cpeName: shardingsphere-cluster-mode-repository-api
+    version: 5.2.0
+  commons-lang:
+    cpeName: commons-lang
+    version: 2.4
+  shardingsphere-db-discovery-api:
+    cpeName: shardingsphere-db-discovery-api
+    version: 5.2.0
+  hbase-metrics:
+    cpeName: hbase-metrics
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-metrics
+  aspectjweaver:
+    cpeName: aspectjweaver
+    version: 1.9.4
+  google-extensions:
+    cpeName: google-extensions
+    version: 0.3.1
+  javax.servlet.jsp:
+    cpeName: javax.servlet.jsp
+    version: 2.3.2
+  expiringmap:
+    cpeName: expiringmap
+    version: 0.5.6
+  asm:
+    cpeName: asm
+    version: 7.1
+  shardingsphere-transaction-api:
+    cpeName: shardingsphere-transaction-api
+    version: 5.2.0
+  commons-codec:
+    cpeName: commons-codec
+    version: 1.14
+  flogger-log4j-backend:
+    cpeName: flogger-log4j-backend
+    version: 0.3.1
+  presto-tpcds:
+    cpeName: presto-tpcds
+    version: 1.10.0-SNAPSHOT
+  cache-api:
+    cpeName: cache-api
+    version: 1.1.1
+  shardingsphere-distsql-statement:
+    cpeName: shardingsphere-distsql-statement
+    version: 5.2.0
+  presto-redis:
+    cpeName: presto-redis
+    version: 1.10.0-SNAPSHOT
+  netty-transport-rxtx:
+    cpeName: netty-transport-rxtx
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-rxtx/
+  hbase-replication:
+    cpeName: hbase-replication
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-replication
+  presto-ml:
+    cpeName: presto-ml
+    version: 1.10.0-SNAPSHOT
+  commons-dbcp2:
+    cpeName: commons-dbcp2
+    version: 2.6.0
+    url: http://commons.apache.org/dbcp/
+  hbase-protocol-shaded:
+    cpeName: hbase-protocol-shaded
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-protocol-shaded
+  leveldb:
+    cpeName: leveldb
+    version: 0.10
+  mssql-jdbc:
+    cpeName: mssql-jdbc
+    version: 7.0.0
+  elasticjob-lite-lifecycle:
+    cpeName: elasticjob-lite-lifecycle
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-lite/elasticjob-lite-lifecycle/
+  maven-aether-provider:
+    cpeName: maven-aether-provider
+    version: 3.0.4
+  zookeeper-jute:
+    cpeName: zookeeper-jute
+    version: 3.6.3
+    url: http://zookeeper.apache.org/zookeeper-jute
+  grpc-netty:
+    cpeName: grpc-netty
+    version: 1.27.1
+  shardingsphere-standalone-mode-repository-jdbc-core:
+    cpeName: shardingsphere-standalone-mode-repository-jdbc-core
+    version: 5.2.0
+  shardingsphere-infra-executor:
+    cpeName: shardingsphere-infra-executor
+    version: 5.2.0
   netty-resolver:
     cpeName: netty-resolver
     version: 4.1.86.Final
@@ -455,1253 +1141,567 @@ hetu-core:
     cpeName: commons-beanutils
     version: 1.9.4
     url: https://commons.apache.org/proper/commons-beanutils/
-  asm-util:
-    cpeName: asm-util
-    version: 6.2.1
-  mapdb:
-    cpeName: mapdb
-    version: 3.0.8
-  hbase-zookeeper:
-    cpeName: hbase-zookeeper
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-zookeeper
-  opengauss-jdbc:
-    cpeName: opengauss-jdbc
-    version: 3.0.0
-  log4j-over-slf4j:
-    cpeName: log4j-over-slf4j
-    version: 1.7.29
-  ion-java:
-    cpeName: ion-java
-    version: 1.0.2
-  jersey-media-multipart:
-    cpeName: jersey-media-multipart
-    version: 2.26.0
-  shardingsphere-sql-parser-statement:
-    cpeName: shardingsphere-sql-parser-statement
-    version: 5.2.0
-  shardingsphere-data-pipeline-core:
-    cpeName: shardingsphere-data-pipeline-core
-    version: 5.2.0
-  slf4j-jdk14:
-    cpeName: slf4j-jdk14
-    version: 1.7.29
-  netty-codec-mqtt:
-    cpeName: netty-codec-mqtt
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-mqtt/
-  plexus-interpolation:
-    cpeName: plexus-interpolation
-    version: 1.14
-  commons-math3:
-    cpeName: commons-math3
-    version: 3.6.1
-    url: http://commons.apache.org/proper/commons-math/
-  Jackson-dataformat-YAML:
-    cpeName: Jackson-dataformat-YAML
-    version: 2.14.0
-  netty-transport-classes-epoll:
-    cpeName: netty-transport-classes-epoll
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-classes-epoll/
-  antlr-runtime:
-    cpeName: antlr-runtime
-    version: 3.4
-  presto-example-http:
-    cpeName: presto-example-http
-    version: 1.9.0-SNAPSHOT
-  hetu-common:
-    cpeName: hetu-common
-    version: 1.9.0-SNAPSHOT
-  protobuf-java-util:
-    cpeName: protobuf-java-util
-    version: 3.11.0
-  shardingsphere-infra-merge:
-    cpeName: shardingsphere-infra-merge
-    version: 5.2.0
-  hetu-startree:
-    cpeName: hetu-startree
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-transaction-api:
-    cpeName: shardingsphere-transaction-api
-    version: 5.2.0
-  hive-upgrade-acid:
-    cpeName: hive-upgrade-acid
-    version: 3.1.2
-    url: https://www.apache.org/hive-upgrade-acid/
-  presto-record-decoder:
-    cpeName: presto-record-decoder
-    version: 1.9.0-SNAPSHOT
-  avro:
-    cpeName: avro
-    version: 1.9.2
-    url: https://avro.apache.org
-  httpmime:
-    cpeName: httpmime
-    version: 4.5.2
-  guice-multibindings:
-    cpeName: guice-multibindings
-    version: 4.2.2
-  hbase-shaded-netty:
-    cpeName: hbase-shaded-netty
-    version: 4.0.0
-  jersey-container-servlet:
-    cpeName: jersey-container-servlet
-    version: 2.26.0
-  netty-transport-rxtx:
-    cpeName: netty-transport-rxtx
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-rxtx/
-  shardingsphere-db-discovery-mysql:
-    cpeName: shardingsphere-db-discovery-mysql
-    version: 5.2.0
-  aggdesigner-algorithm:
-    cpeName: aggdesigner-algorithm
-    version: 6.0
-  ST4:
-    cpeName: ST4
-    version: 4.0.4
-  iceberg-orc:
-    cpeName: iceberg-orc
-    version: 0.13.1
-  jersey-common:
-    cpeName: jersey-common
-    version: 2.26.0
-  jetty-alpn-openjdk8-client:
-    cpeName: jetty-alpn-openjdk8-client
-    version: 9.4.48.v20220622
-  drift-transport-netty:
-    cpeName: drift-transport-netty
-    version: 1.18
-  flogger:
-    cpeName: flogger
-    version: 0.3.1
-  maven-settings-builder:
-    cpeName: maven-settings-builder
-    version: 3.0.4
-  trace-token:
-    cpeName: trace-token
-    version: 0.193
-  shardingsphere-infra-common:
-    cpeName: shardingsphere-infra-common
-    version: 5.2.0
-  hetu-metastore:
-    cpeName: hetu-metastore
-    version: 1.9.0-SNAPSHOT
-  httpclient:
-    cpeName: httpclient
-    version: 4.5.13
-    url: http://hc.apache.org/httpcomponents-client
-  h2:
-    cpeName: h2
-    version: 1.4.199
-    url: http://www.h2database.com
-  event:
-    cpeName: event
-    version: 0.193
-  hetu-opengauss:
-    cpeName: hetu-opengauss
-    version: 1.9.0-SNAPSHOT
-  drift-protocol:
-    cpeName: drift-protocol
-    version: 1.18
-  presto-array:
-    cpeName: presto-array
-    version: 1.9.0-SNAPSHOT
-  hetu-state-store:
-    cpeName: hetu-state-store
-    version: 1.9.0-SNAPSHOT
-  units:
-    cpeName: units
-    version: 1.6
-  commons-lang:
-    cpeName: commons-lang
-    version: 2.4
-  shardingsphere-sql-parser-opengauss:
-    cpeName: shardingsphere-sql-parser-opengauss
-    version: 5.2.0
-  gson:
-    cpeName: gson
-    version: 2.5
-  aether-util:
-    cpeName: aether-util
-    version: 1.13.1
-  hbase-metrics-api:
-    cpeName: hbase-metrics-api
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-metrics-api
-  google-http-client-jackson2:
-    cpeName: google-http-client-jackson2
-    version: 1.25.0
-  antlr:
-    cpeName: antlr
-    version: 2.7.7
-  asm-tree:
-    cpeName: asm-tree
-    version: 7.1
-  scala-library:
-    cpeName: scala-library
-    version: 2.10.7.v20171031-225236-VFINAL-89e57bc7ad
-  calcite-linq4j:
-    cpeName: calcite-linq4j
-    version: 1.21.0.151
-    url: https://calcite.apache.org/calcite-linq4j
-  netty-codec-xml:
-    cpeName: netty-codec-xml
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-xml/
-  util:
-    cpeName: util
-    version: 1.9.10
-  asm-analysis:
-    cpeName: asm-analysis
-    version: 7.1
-  uzaygezen-core:
-    cpeName: uzaygezen-core
-    version: 0.2
-  spring-beans:
-    cpeName: spring-beans
-    version: 5.3.20
-  shardingsphere-readwrite-splitting-core:
-    cpeName: shardingsphere-readwrite-splitting-core
-    version: 5.2.0
-  shardingsphere-authority-core:
-    cpeName: shardingsphere-authority-core
-    version: 5.2.0
-  aws-java-sdk-sts:
-    cpeName: aws-java-sdk-sts
-    version: 1.11.445
-  commons-compress:
-    cpeName: commons-compress
-    version: 1.21
-  hbase-shaded-protobuf:
-    cpeName: hbase-shaded-protobuf
-    version: 2.2.1
-    url: http://hbase.apache.org/hbase-shaded-protobuf
-  jetty-servlet:
-    cpeName: jetty-servlet
-    version: 9.4.48.v20220622
-  presto-teradata-functions:
-    cpeName: presto-teradata-functions
-    version: 1.9.0-SNAPSHOT
-  gcsio:
-    cpeName: gcsio
-    version: 1.9.10
-  presto-elasticsearch:
-    cpeName: presto-elasticsearch
-    version: 1.9.0-SNAPSHOT
-  t-digest:
-    cpeName: t-digest
-    version: 3.0
-  presto-tpcds:
-    cpeName: presto-tpcds
-    version: 1.9.0-SNAPSHOT
-  snakeyaml:
-    cpeName: snakeyaml
-    version: 1.33.0
-  jdbi3-core:
-    cpeName: jdbi3-core
-    version: 3.4.0
-    url: http://jdbi.org/
-  presto-jmx:
-    cpeName: presto-jmx
-    version: 1.9.0-SNAPSHOT
-  netty-all:
-    cpeName: netty-all
-    version: 4.1.86.Final
-    url: https://netty.io/netty-all/
-  shardingsphere-transaction-core:
-    cpeName: shardingsphere-transaction-core
-    version: 5.2.0
-  util-hadoop-hadoop2:
-    cpeName: util-hadoop-hadoop2
-    version: 1.9.10
-  grpc-context:
-    cpeName: grpc-context
-    version: 1.27.1
-  esri-geometry-api:
-    cpeName: esri-geometry-api
-    version: 2.2.2
-  javax.el:
-    cpeName: javax.el
-    version: 3.0.1-b12
-  kotlin-stdlib:
-    cpeName: kotlin-stdlib
-    version: 1.4.30
-  hetu-listener:
-    cpeName: hetu-listener
-    version: 1.9.0-SNAPSHOT
-  mysql-connector-java:
-    cpeName: mysql-connector-java
-    version: 5.1.49
-  mariadb-java-client:
-    cpeName: mariadb-java-client
-    version: 2.7.3
-  shardingsphere-sql-parser-postgresql:
-    cpeName: shardingsphere-sql-parser-postgresql
-    version: 5.2.0
-  presto-orc:
-    cpeName: presto-orc
-    version: 1.9.0-SNAPSHOT
-  jopt-simple:
-    cpeName: jopt-simple
-    version: 5.0.2
-  hetu-transport:
-    cpeName: hetu-transport
-    version: 1.9.0-SNAPSHOT
-  jetty-util:
-    cpeName: jetty-util
-    version: 9.4.48.v20220622
-  okio:
-    cpeName: okio
-    version: 1.13.0
-  findbugs-annotations:
-    cpeName: findbugs-annotations
-    version: 1.3.9-1
-  annotations:
-    cpeName: annotations
-    version: 13.0
-  plexus-sec-dispatcher:
-    cpeName: plexus-sec-dispatcher
-    version: 1.3
-  jersey-hk2:
-    cpeName: jersey-hk2
-    version: 2.26.0
-  spring-core:
-    cpeName: spring-core
-    version: 5.3.20
-  shardingsphere-jdbc-core:
-    cpeName: shardingsphere-jdbc-core
-    version: 5.2.0
-  netty-resolver-dns-native-macos:
-    cpeName: netty-resolver-dns-native-macos
-    version: 4.1.86.Final
-    url: https://netty.io/netty-resolver-dns-native-macos/
-  aircompressor:
-    cpeName: aircompressor
-    version: 0.15
-  hbase-hadoop2-compat:
-    cpeName: hbase-hadoop2-compat
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-hadoop2-compat
-  hbase-common:
-    cpeName: hbase-common
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-common
-  expiringmap:
-    cpeName: expiringmap
-    version: 0.5.9
-  auto-value-annotations:
-    cpeName: auto-value-annotations
-    version: 1.6.2
-  hetu-seed-store:
-    cpeName: hetu-seed-store
-    version: 1.9.0-SNAPSHOT
-  stringtemplate:
-    cpeName: stringtemplate
-    version: 3.2.1
-  aether-api:
-    cpeName: aether-api
-    version: 1.13.1
-  shardingsphere-standalone-mode-repository-api:
-    cpeName: shardingsphere-standalone-mode-repository-api
-    version: 5.2.0
-  netty-codec-socks:
-    cpeName: netty-codec-socks
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-socks/
-  shardingsphere-db-discovery-opengauss:
-    cpeName: shardingsphere-db-discovery-opengauss
-    version: 5.2.0
-  proto-google-common-protos:
-    cpeName: proto-google-common-protos
-    version: 1.17.0
-  wagon-provider-api:
-    cpeName: wagon-provider-api
-    version: 2.2
-  shardingsphere-db-discovery-api:
-    cpeName: shardingsphere-db-discovery-api
-    version: 5.2.0
-  shardingsphere-cluster-mode-repository-api:
-    cpeName: shardingsphere-cluster-mode-repository-api
-    version: 5.2.0
-  shardingsphere-sql-translator-core:
-    cpeName: shardingsphere-sql-translator-core
-    version: 5.2.0
-  elasticjob-script-executor:
-    cpeName: elasticjob-script-executor
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-script-executor/
-  jnanoid:
-    cpeName: jnanoid
-    version: 2.0.0
-  coral-hive:
-    cpeName: coral-hive
-    version: 2.0.55
-  aws-java-sdk-s3:
-    cpeName: aws-java-sdk-s3
-    version: 1.11.445
-  docker-java-api:
-    cpeName: docker-java-api
-    version: 3.2.5
-  shardingsphere-sharding-nanoid:
-    cpeName: shardingsphere-sharding-nanoid
-    version: 5.2.0
-  netty-resolver-dns-classes-macos:
-    cpeName: netty-resolver-dns-classes-macos
-    version: 4.1.86.Final
-    url: https://netty.io/netty-resolver-dns-classes-macos/
-  hive-shims:
-    cpeName: hive-shims
-    version: 3.1.2
-  curator-framework:
-    cpeName: curator-framework
-    version: 5.1.0
-    url: http://curator.apache.org/curator-framework
-  jamon-runtime:
-    cpeName: jamon-runtime
-    version: 2.4.1
-  discovery:
-    cpeName: discovery
-    version: 0.193
-  maven-settings:
-    cpeName: maven-settings
-    version: 3.0.4
-  eclipse-collections:
-    cpeName: eclipse-collections
-    version: 11.1.0
-  hetu-hive-functions:
-    cpeName: hetu-hive-functions
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-shadow-api:
-    cpeName: shardingsphere-shadow-api
-    version: 5.2.0
-  cache-api:
-    cpeName: cache-api
-    version: 1.1.1
-  airline:
-    cpeName: airline
-    version: 0.8
-  hetu-mongodb:
-    cpeName: hetu-mongodb
-    version: 1.9.0-SNAPSHOT
-  joni:
-    cpeName: joni
-    version: 2.1.5.3
-  netty-codec-http:
-    cpeName: netty-codec-http
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-http/
-  aether-connector-file:
-    cpeName: aether-connector-file
-    version: 1.13.1
-  kafka-clients:
-    cpeName: kafka-clients
-    version: 0.10.2.2
-  elasticjob-infra-common:
-    cpeName: elasticjob-infra-common
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-infra/elasticjob-infra-common/
-  mongodb:
-    cpeName: mongodb
-    version: 1.15.0
-  iceberg-data:
-    cpeName: iceberg-data
-    version: 0.13.1
-  Jackson-dataformat-CBOR:
-    cpeName: Jackson-dataformat-CBOR
-    version: 2.6.7
-  google-api-client:
-    cpeName: google-api-client
-    version: 1.25.0
-  netty-codec:
-    cpeName: netty-codec
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec/
-  kafka_2.10:
-    cpeName: kafka_2.10
-    version: 0.10.2.2
-  caffeine:
-    cpeName: caffeine
-    version: 2.9.2
-  tpcds:
-    cpeName: tpcds
-    version: 1.2
-  hetu-mpp:
-    cpeName: hetu-mpp
-    version: 1.9.0-SNAPSHOT
-  google-oauth-client:
-    cpeName: google-oauth-client
-    version: 1.25.0
-  javax.servlet-api:
-    cpeName: javax.servlet-api
-    version: 4.0.1
-  netty-transport-native-kqueue:
-    cpeName: netty-transport-native-kqueue
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-native-kqueue/
-  netty-handler-ssl-ocsp:
-    cpeName: netty-handler-ssl-ocsp
-    version: 4.1.86.Final
-    url: https://netty.io/netty-handler-ssl-ocsp/
-  shardingsphere-single-table-core:
-    cpeName: shardingsphere-single-table-core
-    version: 5.2.0
-  shardingsphere-standalone-mode-core:
-    cpeName: shardingsphere-standalone-mode-core
-    version: 5.2.0
-  shardingsphere-infra-executor:
-    cpeName: shardingsphere-infra-executor
-    version: 5.2.0
-  elasticsearch:
-    cpeName: elasticsearch
-    version: 6.0.0
-  elasticjob-registry-center:
-    cpeName: elasticjob-registry-center
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-infra/elasticjob-registry-center/
-  hbase-replication:
-    cpeName: hbase-replication
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-replication
-  presto-hive:
-    cpeName: presto-hive
-    version: 1.9.0-SNAPSHOT
-  duct-tape:
-    cpeName: duct-tape
-    version: 1.0.8
-  JUnit:
-    cpeName: JUnit
-    version: 4.13.1
-    url: http://junit.org
-  audience-annotations:
-    cpeName: audience-annotations
-    version: 0.5.0
-  shims:
-    cpeName: shims
-    version: 0.9.0
-  org.apache.zookeeper:
-    cpeName: org.apache.zookeeper
-    version: 3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03
-  elasticjob-dataflow-executor:
-    cpeName: elasticjob-dataflow-executor
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-dataflow-executor/
-  snappy-java:
-    cpeName: snappy-java
-    version: 1.1.8.4
-    url: https://github.com/xerial/snappy-java
-  netty-transport-native-epoll:
-    cpeName: netty-transport-native-epoll
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-native-epoll/
-  presto-spi:
-    cpeName: presto-spi
-    version: 1.9.0-SNAPSHOT
-  grpc-netty:
-    cpeName: grpc-netty
-    version: 1.27.1
-  jetty-alpn-client:
-    cpeName: jetty-alpn-client
-    version: 9.4.48.v20220622
-  hbase-procedure:
-    cpeName: hbase-procedure
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-procedure
-  parent-join-client:
-    cpeName: parent-join-client
-    version: 6.0.0
-  jdbi3-sqlobject:
-    cpeName: jdbi3-sqlobject
-    version: 3.4.0
-    url: http://jdbi.org/
-  commons-dbcp:
-    cpeName: commons-dbcp
-    version: 1.4
-  bytecode:
-    cpeName: bytecode
-    version: 1.2
-  jaxrs:
-    cpeName: jaxrs
-    version: 0.193
-  hbase-client:
-    cpeName: hbase-client
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-client
-  presto-thrift:
-    cpeName: presto-thrift
-    version: 1.9.0-SNAPSHOT
-  drift-transport-spi:
-    cpeName: drift-transport-spi
-    version: 1.18
-  shardingsphere-encrypt-sm:
-    cpeName: shardingsphere-encrypt-sm
-    version: 5.2.0
-  pcollections:
-    cpeName: pcollections
-    version: 2.1.2
-  presto-memory:
-    cpeName: presto-memory
-    version: 1.9.0-SNAPSHOT
-  tpch:
-    cpeName: tpch
-    version: 0.10
-  plexus-container-default:
-    cpeName: plexus-container-default
-    version: 1.5.5
-  hetu-iceberg:
-    cpeName: hetu-iceberg
-    version: 1.9.0-SNAPSHOT
-  javax.servlet.jsp:
-    cpeName: javax.servlet.jsp
-    version: 2.3.2
-  modernizer-maven-annotations:
-    cpeName: modernizer-maven-annotations
-    version: 2.3.0
-  maven-repository-metadata:
-    cpeName: maven-repository-metadata
-    version: 3.0.4
-  elasticjob-simple-executor:
-    cpeName: elasticjob-simple-executor
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-simple-executor/
-  flogger-log4j-backend:
-    cpeName: flogger-log4j-backend
-    version: 0.3.1
-  xbean-reflect:
-    cpeName: xbean-reflect
-    version: 3.4
-  grpc-api:
-    cpeName: grpc-api
-    version: 1.27.1
-  hetu-greenplum:
-    cpeName: hetu-greenplum
-    version: 1.9.0-SNAPSHOT
-  hbase-shaded-miscellaneous:
-    cpeName: hbase-shaded-miscellaneous
-    version: 2.2.1
-    url: http://hbase.apache.org/hbase-shaded-miscellaneous
-  aws-java-sdk-core:
-    cpeName: aws-java-sdk-core
-    version: 1.11.445
-  jedis:
-    cpeName: jedis
-    version: 3.5.2
-  presto-matching:
-    cpeName: presto-matching
-    version: 1.9.0-SNAPSHOT
-  gcs-connector-hadoop2:
-    cpeName: gcs-connector-hadoop2
-    version: 1.9.10
-  apiguardian-api:
-    cpeName: apiguardian-api
-    version: 1.1.0
-  iceberg-api:
-    cpeName: iceberg-api
-    version: 0.13.1
-  presto-kafka:
-    cpeName: presto-kafka
-    version: 1.9.0-SNAPSHOT
-  netty-codec-stomp:
-    cpeName: netty-codec-stomp
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-stomp/
-  shardingsphere-sql-parser-sqlserver:
-    cpeName: shardingsphere-sql-parser-sqlserver
-    version: 5.2.0
-  shardingsphere-infra-util:
-    cpeName: shardingsphere-infra-util
-    version: 5.2.0
-  presto-postgresql:
-    cpeName: presto-postgresql
-    version: 1.9.0-SNAPSHOT
-  netty-buffer:
-    cpeName: netty-buffer
-    version: 4.1.86.Final
-    url: https://netty.io/netty-buffer/
-  Jettison:
-    cpeName: Jettison
-    version: 1.4.1
-  maven-plugin-api:
-    cpeName: maven-plugin-api
-    version: 3.0.4
-  zkclient:
-    cpeName: zkclient
-    version: 0.10
-  elasticjob-lite-core:
-    cpeName: elasticjob-lite-core
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-lite/elasticjob-lite-core/
-  commons-collections4:
-    cpeName: commons-collections4
-    version: 4.4
-    url: https://commons.apache.org/proper/commons-collections/
-  javax.ws.rs-api:
-    cpeName: javax.ws.rs-api
-    version: 2.1
-  hetu-heuristic-index:
-    cpeName: hetu-heuristic-index
-    version: 1.9.0-SNAPSHOT
-  presto-parquet:
-    cpeName: presto-parquet
-    version: 1.9.0-SNAPSHOT
-  kylin-jdbc:
-    cpeName: kylin-jdbc
-    version: 2.6.0
-    url: http://kylin.apache.org/kylin-jdbc
-  jts-core:
-    cpeName: jts-core
-    version: 1.15.0
-  lz4:
-    cpeName: lz4
-    version: 1.3.0
-  iceberg-common:
-    cpeName: iceberg-common
-    version: 0.13.1
-  shardingsphere-infra-federation-executor:
-    cpeName: shardingsphere-infra-federation-executor
-    version: 5.2.0
-  visible-assertions:
-    cpeName: visible-assertions
-    version: 2.1.2
-  protobuf-java:
-    cpeName: protobuf-java
-    version: 3.6.1
-  netty-codec-http2:
-    cpeName: netty-codec-http2
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-http2/
-  bcprov-jdk15on:
-    cpeName: bcprov-jdk15on
-    version: 1.66.0
-  commons-text:
-    cpeName: commons-text
-    version: 1.3
-    url: http://commons.apache.org/proper/commons-text/
-  elasticjob-lite-lifecycle:
-    cpeName: elasticjob-lite-lifecycle
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-lite/elasticjob-lite-lifecycle/
-  curator-client:
-    cpeName: curator-client
-    version: 5.1.0
-  elasticjob-executor-kernel:
-    cpeName: elasticjob-executor-kernel
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-kernel/
-  shardingsphere-sql-parser-oracle:
-    cpeName: shardingsphere-sql-parser-oracle
-    version: 5.2.0
-  jetcd-core:
-    cpeName: jetcd-core
-    version: 0.5.0
-  shardingsphere-cluster-mode-repository-zookeeper-curator:
-    cpeName: shardingsphere-cluster-mode-repository-zookeeper-curator
-    version: 5.2.0
-  coral-trino:
-    cpeName: coral-trino
-    version: 2.0.55
-  plexus-component-annotations:
-    cpeName: plexus-component-annotations
-    version: 1.5.5
-  shardingsphere-mode-core:
-    cpeName: shardingsphere-mode-core
-    version: 5.2.0
-  quartz:
-    cpeName: quartz
-    version: 2.3.2
-  orc-protobuf:
-    cpeName: orc-protobuf
-    version: 9
-  shardingsphere-encrypt-core:
-    cpeName: shardingsphere-encrypt-core
-    version: 5.2.0
-  elasticjob-api:
-    cpeName: elasticjob-api
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-api/
-  log4j-core:
-    cpeName: log4j-core
-    version: 2.17.2
-    url: https://logging.apache.org/log4j/2.x/log4j-core/
-  hbase-server:
-    cpeName: hbase-server
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-server
-  hk2-utils:
-    cpeName: hk2-utils
-    version: 2.5.0.b42
-  grpc-stub:
-    cpeName: grpc-stub
-    version: 1.27.1
-  jersey-server:
-    cpeName: jersey-server
-    version: 2.26.0
-  hudi-common:
-    cpeName: hudi-common
-    version: 0.7.0
-    url: https://github.com/apache/hudi/hudi-common
-  mimepull:
-    cpeName: mimepull
-    version: 1.9.6
-  spring-expression:
-    cpeName: spring-expression
-    version: 5.3.20
-  aether-spi:
-    cpeName: aether-spi
-    version: 1.13.1
-  presto-session-property-managers:
-    cpeName: presto-session-property-managers
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-system-datetime:
-    cpeName: shardingsphere-system-datetime
-    version: 5.2.0
-  shardingsphere-sharding-core:
-    cpeName: shardingsphere-sharding-core
-    version: 5.2.0
-  shardingsphere-sql-parser-sql92:
-    cpeName: shardingsphere-sql-parser-sql92
-    version: 5.2.0
-  javassist:
-    cpeName: javassist
-    version: 3.22.0.GA
-  presto-main:
-    cpeName: presto-main
-    version: 1.9.0-SNAPSHOT
-  drift-codec:
-    cpeName: drift-codec
-    version: 1.18
-  htrace-core4:
-    cpeName: htrace-core4
-    version: 4.2.0-incubating
-  hbase-protocol-shaded:
-    cpeName: hbase-protocol-shaded
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-protocol-shaded
-  netty-resolver-dns:
-    cpeName: netty-resolver-dns
-    version: 4.1.86.Final
-    url: https://netty.io/netty-resolver-dns/
-  shardingsphere-single-table-api:
-    cpeName: shardingsphere-single-table-api
-    version: 5.2.0
-  google-oauth-client-java6:
-    cpeName: google-oauth-client-java6
-    version: 1.25.0
-  shardingsphere-infra-rewrite:
-    cpeName: shardingsphere-infra-rewrite
-    version: 5.2.0
-  elasticjob-error-handler-spi:
-    cpeName: elasticjob-error-handler-spi
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-error-handler/elasticjob-error-handler-spi/
-  presto-geospatial:
-    cpeName: presto-geospatial
-    version: 1.9.0-SNAPSHOT
-  elasticjob-error-handler-general:
-    cpeName: elasticjob-error-handler-general
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-error-handler/elasticjob-error-handler-type/elasticjob-error-handler-general/
-  hk2-api:
-    cpeName: hk2-api
-    version: 2.5.0.b42
-  http2-common:
-    cpeName: http2-common
-    version: 9.4.48.v20220622
-  jetty-webapp:
-    cpeName: jetty-webapp
-    version: 9.4.48.v20220622
-  testcontainers:
-    cpeName: testcontainers
-    version: 1.15.0
-  shardingsphere-sql-parser-engine:
-    cpeName: shardingsphere-sql-parser-engine
-    version: 5.2.0
-  groovy:
-    cpeName: groovy
-    version: 4.0.3
-  commons-collections:
-    cpeName: commons-collections
-    version: 3.2.2
-    url: http://commons.apache.org/collections/
-  netty-transport-sctp:
-    cpeName: netty-transport-sctp
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-sctp/
-  shardingsphere-infra-datetime-spi:
-    cpeName: shardingsphere-infra-datetime-spi
-    version: 5.2.0
-  leveldb-api:
-    cpeName: leveldb-api
-    version: 0.10
-  jmx:
-    cpeName: jmx
-    version: 0.193
-  shardingsphere-distsql-parser:
-    cpeName: shardingsphere-distsql-parser
-    version: 5.2.0
-  netty-transport-udt:
-    cpeName: netty-transport-udt
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-udt/
-  jmx-http-rpc:
-    cpeName: jmx-http-rpc
-    version: 0.159
-  shardingsphere-infra-route:
-    cpeName: shardingsphere-infra-route
-    version: 5.2.0
-  hetu-function-namespace-managers:
-    cpeName: hetu-function-namespace-managers
-    version: 1.9.0-SNAPSHOT
-  hetu-kylin:
-    cpeName: hetu-kylin
-    version: 1.9.0-SNAPSHOT
-  netty-transport-classes-kqueue:
-    cpeName: netty-transport-classes-kqueue
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport-classes-kqueue/
-  netty-handler-proxy:
-    cpeName: netty-handler-proxy
-    version: 4.1.86.Final
-    url: https://netty.io/netty-handler-proxy/
-  shardingsphere-distsql-statement:
-    cpeName: shardingsphere-distsql-statement
-    version: 5.2.0
-  shardingsphere-db-discovery-core:
-    cpeName: shardingsphere-db-discovery-core
-    version: 5.2.0
-  jgrapht-core:
-    cpeName: jgrapht-core
-    version: 0.8.4.dev
-  drift-client:
-    cpeName: drift-client
-    version: 1.18
-  event-http:
-    cpeName: event-http
-    version: 0.193
-  drift-api:
-    cpeName: drift-api
-    version: 1.18
-  presto-tpch:
-    cpeName: presto-tpch
-    version: 1.9.0-SNAPSHOT
-  osgi-resource-locator:
-    cpeName: osgi-resource-locator
-    version: 1.0.1
-  shardingsphere-cluster-mode-core:
-    cpeName: shardingsphere-cluster-mode-core
-    version: 5.2.0
   log4j-api:
     cpeName: log4j-api
     version: 2.17.2
     url: https://logging.apache.org/log4j/2.x/log4j-api/
-  presto-atop:
-    cpeName: presto-atop
-    version: 1.9.0-SNAPSHOT
-  zookeeper:
-    cpeName: zookeeper
-    version: 3.6.3
-    url: http://zookeeper.apache.org/zookeeper
-  jersey-media-jaxb:
-    cpeName: jersey-media-jaxb
-    version: 2.26.0
-  elasticsearch-rest-client:
-    cpeName: elasticsearch-rest-client
-    version: 6.0.0
-  maven-aether-provider:
-    cpeName: maven-aether-provider
-    version: 3.0.4
-  netty-common:
-    cpeName: netty-common
-    version: 4.1.86.Final
-    url: https://netty.io/netty-common/
-  jetty-jmx:
-    cpeName: jetty-jmx
-    version: 9.4.48.v20220622
-  accessors-smart:
-    cpeName: accessors-smart
-    version: 1.2
-  aspectjweaver:
-    cpeName: aspectjweaver
-    version: 1.9.4
-  hbase-hadoop-compat:
-    cpeName: hbase-hadoop-compat
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-hadoop-compat
-  javax.activation.javax.activation-api:
-    cpeName: javax.activation.javax.activation-api
-    version: 1.2.0
-  kotlin-stdlib-common:
-    cpeName: kotlin-stdlib-common
-    version: 1.4.30
-  shardingsphere-sql-translator-native-provider:
-    cpeName: shardingsphere-sql-translator-native-provider
-    version: 5.2.0
-  presto-thrift-api:
-    cpeName: presto-thrift-api
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-traffic-core:
-    cpeName: shardingsphere-traffic-core
-    version: 5.2.0
-  presto-mysql:
-    cpeName: presto-mysql
-    version: 1.9.0-SNAPSHOT
-  RoaringBitmap:
-    cpeName: RoaringBitmap
-    version: 0.9.0
-  grpc-core:
-    cpeName: grpc-core
-    version: 1.27.1
-  jmx-http:
-    cpeName: jmx-http
-    version: 0.193
-  memory:
-    cpeName: memory
-    version: 0.9.0
-  securesm:
-    cpeName: securesm
-    version: 1.1
-  grpc-grpclb:
-    cpeName: grpc-grpclb
-    version: 1.27.1
-  shardingsphere-infra-context:
-    cpeName: shardingsphere-infra-context
-    version: 5.2.0
-  presto-hive-hadoop2:
-    cpeName: presto-hive-hadoop2
-    version: 1.9.0-SNAPSHOT
-  jackson-dataformat-smile:
-    cpeName: jackson-dataformat-smile
-    version: 2.14.0
-  presto-geospatial-toolkit:
-    cpeName: presto-geospatial-toolkit
-    version: 1.9.0-SNAPSHOT
-  docker-java-transport-zerodep:
-    cpeName: docker-java-transport-zerodep
-    version: 3.2.5
-  jersey-client:
-    cpeName: jersey-client
-    version: 2.26.0
-  mongo-java-driver:
-    cpeName: mongo-java-driver
-    version: 3.6.0
-  node:
-    cpeName: node
-    version: 0.193
-  shardingsphere-infra-federation-optimizer:
-    cpeName: shardingsphere-infra-federation-optimizer
-    version: 5.2.0
-  hadoop-distcp:
-    cpeName: hadoop-distcp
-    version: 2.10.1
-  shardingsphere-standalone-mode-repository-jdbc-core:
-    cpeName: shardingsphere-standalone-mode-repository-jdbc-core
-    version: 5.2.0
-  hbase-metrics:
-    cpeName: hbase-metrics
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-metrics
-  elasticsearch-rest-high-level-client:
-    cpeName: elasticsearch-rest-high-level-client
-    version: 6.0.0
-  hetu-hazelcast:
-    cpeName: hetu-hazelcast
-    version: 1.9.0-SNAPSHOT
-  discovery-server:
-    cpeName: discovery-server
-    version: 1.29
-  maven-compat:
-    cpeName: maven-compat
-    version: 3.0.4
-  perfmark-api:
-    cpeName: perfmark-api
-    version: 0.19.0
-  spring-context:
-    cpeName: spring-context
-    version: 5.3.20
-  shardingsphere-sql-parser-mysql:
-    cpeName: shardingsphere-sql-parser-mysql
-    version: 5.2.0
-  netty-transport:
-    cpeName: netty-transport
-    version: 4.1.86.Final
-    url: https://netty.io/netty-transport/
-  shardingsphere-parser-core:
-    cpeName: shardingsphere-parser-core
-    version: 5.2.0
-  grpc-protobuf-lite:
-    cpeName: grpc-protobuf-lite
-    version: 1.27.1
-  http-server:
-    cpeName: http-server
-    version: 0.193
-  commons-exec:
-    cpeName: commons-exec
-    version: 1.3
-  shardingsphere-sharding-api:
-    cpeName: shardingsphere-sharding-api
-    version: 5.2.0
-  commons-pool:
-    cpeName: commons-pool
-    version: 1.5.4
-  elasticjob-tracing-api:
-    cpeName: elasticjob-tracing-api
-    version: 3.0.1
-    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-tracing/elasticjob-tracing-api/
-  hk2-locator:
-    cpeName: hk2-locator
-    version: 2.5.0.b42
-  hppc:
-    cpeName: hppc
-    version: 0.7.1
-  http2-hpack:
-    cpeName: http2-hpack
-    version: 9.4.48.v20220622
-  iceberg-bundled-guava:
-    cpeName: iceberg-bundled-guava
-    version: 0.13.1
-  netty-codec-smtp:
-    cpeName: netty-codec-smtp
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-smtp/
-  hetu-hana:
-    cpeName: hetu-hana
-    version: 1.9.0-SNAPSHOT
-  slice:
-    cpeName: slice
-    version: 0.38
-  leveldb:
-    cpeName: leveldb
-    version: 0.10
-  resolver:
-    cpeName: resolver
-    version: 1.5
-  aggs-matrix-stats-client:
-    cpeName: aggs-matrix-stats-client
-    version: 6.0.0
-  shardingsphere-dialect-exception-core:
-    cpeName: shardingsphere-dialect-exception-core
-    version: 5.2.0
   shardingsphere-readwrite-splitting-api:
     cpeName: shardingsphere-readwrite-splitting-api
     version: 5.2.0
-  hbase-http:
-    cpeName: hbase-http
-    version: 2.2.3
-    url: https://hbase.apache.org/hbase-build-configuration/hbase-http
-  libsvm:
-    cpeName: libsvm
-    version: 3.18.1
-  eclipse-collections-forkjoin:
-    cpeName: eclipse-collections-forkjoin
-    version: 11.1.0
-  clickhouse-jdbc:
-    cpeName: clickhouse-jdbc
-    version: 0.2.4
-  hetu-dm:
-    cpeName: hetu-dm
-    version: 1.9.0-SNAPSHOT
-  netty-handler:
-    cpeName: netty-handler
+  docker-java-api:
+    cpeName: docker-java-api
+    version: 3.2.5
+  lz4:
+    cpeName: lz4
+    version: 1.3.0
+  hetu-mpp:
+    cpeName: hetu-mpp
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-distsql-parser:
+    cpeName: shardingsphere-distsql-parser
+    version: 5.2.0
+  maven-model:
+    cpeName: maven-model
+    version: 3.0.4
+  netty-transport-native-epoll:
+    cpeName: netty-transport-native-epoll
     version: 4.1.86.Final
-    url: https://netty.io/netty-handler/
-  presto-sqlserver:
-    cpeName: presto-sqlserver
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-data-pipeline-api:
-    cpeName: shardingsphere-data-pipeline-api
+    url: https://netty.io/netty-transport-native-epoll/
+  javax.el:
+    cpeName: javax.el
+    version: 3.0.1-b12
+  mimepull:
+    cpeName: mimepull
+    version: 1.9.6
+  shardingsphere-sql-translator-native-provider:
+    cpeName: shardingsphere-sql-translator-native-provider
     version: 5.2.0
-  shardingsphere-infra-binder:
-    cpeName: shardingsphere-infra-binder
-    version: 5.2.0
-  jetty-client:
-    cpeName: jetty-client
-    version: 9.4.48.v20220622
-  hetu-clickhouse:
-    cpeName: hetu-clickhouse
-    version: 1.9.0-SNAPSHOT
-  shardingsphere-parser-api:
-    cpeName: shardingsphere-parser-api
-    version: 5.2.0
-  jetty-xml:
-    cpeName: jetty-xml
-    version: 9.4.48.v20220622
-  shardingsphere-shadow-core:
-    cpeName: shardingsphere-shadow-core
-    version: 5.2.0
-  aether-connector-asynchttpclient:
-    cpeName: aether-connector-asynchttpclient
-    version: 1.13.1
-  shardingsphere-traffic-api:
-    cpeName: shardingsphere-traffic-api
-    version: 5.2.0
-  mssql-jdbc:
-    cpeName: mssql-jdbc
-    version: 7.0.0
-  com.sun.jna:
-    cpeName: com.sun.jna
-    version: 4.4.0-1
-  commons-crypto:
-    cpeName: commons-crypto
-    version: 1.0.0
-    url: http://commons.apache.org/proper/commons-crypto/
-  shardingsphere-cluster-mode-repository-etcd:
-    cpeName: shardingsphere-cluster-mode-repository-etcd
-    version: 5.2.0
+  plexus-component-annotations:
+    cpeName: plexus-component-annotations
+    version: 1.5.5
+  iceberg-parquet:
+    cpeName: iceberg-parquet
+    version: 0.13.1
+  jersey-client:
+    cpeName: jersey-client
+    version: 2.26.0
   HikariCP:
     cpeName: HikariCP
     version: 3.4.2
-  shardingsphere-infra-parser:
-    cpeName: shardingsphere-infra-parser
-    version: 5.2.0
-  grpc-protobuf:
-    cpeName: grpc-protobuf
+  grpc-stub:
+    cpeName: grpc-stub
     version: 1.27.1
-  presto-password-authenticators:
-    cpeName: presto-password-authenticators
-    version: 1.9.0-SNAPSHOT
+  shardingsphere-sql-parser-sql92:
+    cpeName: shardingsphere-sql-parser-sql92
+    version: 5.2.0
+  jjwt:
+    cpeName: jjwt
+    version: 0.9.0
+    url: http://nexus.sonatype.org/oss-repository-hosting.html/jjwt
+  grpc-api:
+    cpeName: grpc-api
+    version: 1.27.1
+  hetu-listener:
+    cpeName: hetu-listener
+    version: 1.10.0-SNAPSHOT
   hetu-mariadb:
     cpeName: hetu-mariadb
-    version: 1.9.0-SNAPSHOT
-  netty-codec-redis:
-    cpeName: netty-codec-redis
-    version: 4.1.86.Final
-    url: https://netty.io/netty-codec-redis/
-  shardingsphere-encrypt-api:
-    cpeName: shardingsphere-encrypt-api
-    version: 5.2.0
-  http-client:
-    cpeName: http-client
-    version: 0.193
+    version: 1.10.0-SNAPSHOT
   netty-codec-haproxy:
     cpeName: netty-codec-haproxy
     version: 4.1.86.Final
     url: https://netty.io/netty-codec-haproxy/
-  httpasyncclient:
-    cpeName: httpasyncclient
-    version: 4.1.2
-  javax.servlet.jsp-api:
-    cpeName: javax.servlet.jsp-api
-    version: 2.3.1
-  maven-embedder:
-    cpeName: maven-embedder
-    version: 3.0.4
+  jaxrs:
+    cpeName: jaxrs
+    version: 0.193
+  http2-server:
+    cpeName: http2-server
+    version: 9.4.48.v20220622
+  jetcd-core:
+    cpeName: jetcd-core
+    version: 0.5.0
+  commons-math3:
+    cpeName: commons-math3
+    version: 3.6.1
+    url: http://commons.apache.org/proper/commons-math/
+  netty-resolver-dns-classes-macos:
+    cpeName: netty-resolver-dns-classes-macos
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns-classes-macos/
+  netty-codec-dns:
+    cpeName: netty-codec-dns
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-dns/
+  kylin-jdbc:
+    cpeName: kylin-jdbc
+    version: 2.6.0
+    url: http://kylin.apache.org/kylin-jdbc
+  eclipse-collections:
+    cpeName: eclipse-collections
+    version: 11.1.0
+  grpc-grpclb:
+    cpeName: grpc-grpclb
+    version: 1.27.1
+  netty-codec-socks:
+    cpeName: netty-codec-socks
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-socks/
+  htrace-core4:
+    cpeName: htrace-core4
+    version: 4.2.0-incubating
+  jetty-client:
+    cpeName: jetty-client
+    version: 9.4.48.v20220622
+  tpcds:
+    cpeName: tpcds
+    version: 1.2
+  libsvm:
+    cpeName: libsvm
+    version: 3.18.1
+  shardingsphere-infra-merge:
+    cpeName: shardingsphere-infra-merge
+    version: 5.2.0
+  orc-protobuf:
+    cpeName: orc-protobuf
+    version: 9
+  tpch:
+    cpeName: tpch
+    version: 0.10
+  shardingsphere-infra-binder:
+    cpeName: shardingsphere-infra-binder
+    version: 5.2.0
+  shardingsphere-sharding-api:
+    cpeName: shardingsphere-sharding-api
+    version: 5.2.0
+  presto-atop:
+    cpeName: presto-atop
+    version: 1.10.0-SNAPSHOT
+  aether-impl:
+    cpeName: aether-impl
+    version: 1.13.1
+  airline:
+    cpeName: airline
+    version: 0.8
+  plexus-utils:
+    cpeName: plexus-utils
+    version: 3.3.0
+  jedis:
+    cpeName: jedis
+    version: 3.5.2
+  presto-thrift:
+    cpeName: presto-thrift
+    version: 1.10.0-SNAPSHOT
+  antlr-runtime:
+    cpeName: antlr-runtime
+    version: 3.4
+  groovy:
+    cpeName: groovy
+    version: 4.0.3
+  shardingsphere-schedule-core:
+    cpeName: shardingsphere-schedule-core
+    version: 5.2.0
+  shardingsphere-encrypt-core:
+    cpeName: shardingsphere-encrypt-core
+    version: 5.2.0
+  shardingsphere-sql-parser-engine:
+    cpeName: shardingsphere-sql-parser-engine
+    version: 5.2.0
+  kafka-clients:
+    cpeName: kafka-clients
+    version: 0.10.2.2
   maven-core:
     cpeName: maven-core
     version: 3.0.4
-  iceberg-parquet:
-    cpeName: iceberg-parquet
-    version: 0.13.1
-  iceberg-hive-metastore:
-    cpeName: iceberg-hive-metastore
-    version: 0.13.1
-  hetu-singledata:
-    cpeName: hetu-singledata
-    version: 1.9.0-SNAPSHOT
+  presto-spi:
+    cpeName: presto-spi
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-traffic-core:
+    cpeName: shardingsphere-traffic-core
+    version: 5.2.0
+  hetu-oracle:
+    cpeName: hetu-oracle
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-standalone-mode-repository-jdbc-h2:
+    cpeName: shardingsphere-standalone-mode-repository-jdbc-h2
+    version: 5.2.0
+  discovery:
+    cpeName: discovery
+    version: 0.193
   netty:
     cpeName: netty
     version: 3.6.2.Final
+  elasticjob-tracing-api:
+    cpeName: elasticjob-tracing-api
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-tracing/elasticjob-tracing-api/
+  hbase-metrics-api:
+    cpeName: hbase-metrics-api
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-metrics-api
+  netty-all:
+    cpeName: netty-all
+    version: 4.1.86.Final
+    url: https://netty.io/netty-all/
+  shardingsphere-db-discovery-core:
+    cpeName: shardingsphere-db-discovery-core
+    version: 5.2.0
+  scala-library:
+    cpeName: scala-library
+    version: 2.10.7.v20171031-225236-VFINAL-89e57bc7ad
+  okhttp-urlconnection:
+    cpeName: okhttp-urlconnection
+    version: 3.9.0
+  shardingsphere-sql-parser-opengauss:
+    cpeName: shardingsphere-sql-parser-opengauss
+    version: 5.2.0
+  drift-transport-netty:
+    cpeName: drift-transport-netty
+    version: 1.18
+  perfmark-api:
+    cpeName: perfmark-api
+    version: 0.19.0
+  parent-join-client:
+    cpeName: parent-join-client
+    version: 6.0.0
+  netty-resolver-dns:
+    cpeName: netty-resolver-dns
+    version: 4.1.86.Final
+    url: https://netty.io/netty-resolver-dns/
+  shardingsphere-parser-api:
+    cpeName: shardingsphere-parser-api
+    version: 5.2.0
+  duct-tape:
+    cpeName: duct-tape
+    version: 1.0.8
+  shardingsphere-infra-parser:
+    cpeName: shardingsphere-infra-parser
+    version: 5.2.0
+  shardingsphere-sql-parser-mysql:
+    cpeName: shardingsphere-sql-parser-mysql
+    version: 5.2.0
+  elasticjob-tracing-rdb:
+    cpeName: elasticjob-tracing-rdb
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-tracing/elasticjob-tracing-rdb/
+  shardingsphere-data-pipeline-core:
+    cpeName: shardingsphere-data-pipeline-core
+    version: 5.2.0
+  commons-collections:
+    cpeName: commons-collections
+    version: 3.2.2
+    url: http://commons.apache.org/collections/
+  http2-http-client-transport:
+    cpeName: http2-http-client-transport
+    version: 9.4.48.v20220622
+  drift-client:
+    cpeName: drift-client
+    version: 1.18
+  jersey-common:
+    cpeName: jersey-common
+    version: 2.26.0
+  spring-context:
+    cpeName: spring-context
+    version: 5.3.20
+  slice:
+    cpeName: slice
+    version: 0.38
+  shardingsphere-authority-api:
+    cpeName: shardingsphere-authority-api
+    version: 5.2.0
+  hadoop-distcp:
+    cpeName: hadoop-distcp
+    version: 2.10.1
+  hetu-seed-store:
+    cpeName: hetu-seed-store
+    version: 1.10.0-SNAPSHOT
+  presto-sqlserver:
+    cpeName: presto-sqlserver
+    version: 1.10.0-SNAPSHOT
+  elasticjob-infra-common:
+    cpeName: elasticjob-infra-common
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-infra/elasticjob-infra-common/
+  hetu-hive-functions:
+    cpeName: hetu-hive-functions
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-encrypt-sm:
+    cpeName: shardingsphere-encrypt-sm
+    version: 5.2.0
+  node:
+    cpeName: node
+    version: 0.193
+  presto-kafka:
+    cpeName: presto-kafka
+    version: 1.10.0-SNAPSHOT
   elasticjob-http-executor:
     cpeName: elasticjob-http-executor
     version: 3.0.1
     url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-http-executor/
+  apiguardian-api:
+    cpeName: apiguardian-api
+    version: 1.1.0
+  t-digest:
+    cpeName: t-digest
+    version: 3.0
+  shardingsphere-data-pipeline-api:
+    cpeName: shardingsphere-data-pipeline-api
+    version: 5.2.0
+  netty-codec-http2:
+    cpeName: netty-codec-http2
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-http2/
+  jamon-runtime:
+    cpeName: jamon-runtime
+    version: 2.4.1
+  hbase-server:
+    cpeName: hbase-server
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-server
+  hbase-client:
+    cpeName: hbase-client
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-client
+  elasticjob-error-handler-general:
+    cpeName: elasticjob-error-handler-general
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-error-handler/elasticjob-error-handler-type/elasticjob-error-handler-general/
+  netty-transport-classes-epoll:
+    cpeName: netty-transport-classes-epoll
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport-classes-epoll/
+  bcprov-jdk15on:
+    cpeName: bcprov-jdk15on
+    version: 1.66.0
+  hetu-iceberg:
+    cpeName: hetu-iceberg
+    version: 1.10.0-SNAPSHOT
+  hbase-hadoop-compat:
+    cpeName: hbase-hadoop-compat
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-hadoop-compat
+  netty-handler:
+    cpeName: netty-handler
+    version: 4.1.86.Final
+    url: https://netty.io/netty-handler/
+  shardingsphere-sql-translator-core:
+    cpeName: shardingsphere-sql-translator-core
+    version: 5.2.0
+  jdbi3-sqlobject:
+    cpeName: jdbi3-sqlobject
+    version: 3.4.0
+    url: http://jdbi.org/
+  jetty-xml:
+    cpeName: jetty-xml
+    version: 9.4.48.v20220622
+  mapdb:
+    cpeName: mapdb
+    version: 3.0.8
+  jmx-http-rpc:
+    cpeName: jmx-http-rpc
+    version: 0.159
+  hetu-hana:
+    cpeName: hetu-hana
+    version: 1.10.0-SNAPSHOT
+  shardingsphere-sql-parser-oracle:
+    cpeName: shardingsphere-sql-parser-oracle
+    version: 5.2.0
+  resolver:
+    cpeName: resolver
+    version: 1.5
+  aether-util:
+    cpeName: aether-util
+    version: 1.13.1
+  presto-jmx:
+    cpeName: presto-jmx
+    version: 1.10.0-SNAPSHOT
+  JUnit:
+    cpeName: JUnit
+    version: 4.13.1
+    url: http://junit.org
+  elasticjob-lite-core:
+    cpeName: elasticjob-lite-core
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-lite/elasticjob-lite-core/
+  leveldb-api:
+    cpeName: leveldb-api
+    version: 0.10
+  shardingsphere-authority-core:
+    cpeName: shardingsphere-authority-core
+    version: 5.2.0
+  jetty-jmx:
+    cpeName: jetty-jmx
+    version: 9.4.48.v20220622
+  hetu-state-store:
+    cpeName: hetu-state-store
+    version: 1.10.0-SNAPSHOT
+  netty-transport:
+    cpeName: netty-transport
+    version: 4.1.86.Final
+    url: https://netty.io/netty-transport/
+  iceberg-data:
+    cpeName: iceberg-data
+    version: 0.13.1
+  plexus-sec-dispatcher:
+    cpeName: plexus-sec-dispatcher
+    version: 1.3
+  shardingsphere-sharding-cosid:
+    cpeName: shardingsphere-sharding-cosid
+    version: 5.2.0
+  discovery-server:
+    cpeName: discovery-server
+    version: 1.29
+  elasticsearch-rest-high-level-client:
+    cpeName: elasticsearch-rest-high-level-client
+    version: 6.0.0
+  shardingsphere-readwrite-splitting-core:
+    cpeName: shardingsphere-readwrite-splitting-core
+    version: 5.2.0
+  drift-protocol:
+    cpeName: drift-protocol
+    version: 1.18
+  hbase-common:
+    cpeName: hbase-common
+    version: 2.2.3
+    url: https://hbase.apache.org/hbase-build-configuration/hbase-common
+  osgi-resource-locator:
+    cpeName: osgi-resource-locator
+    version: 1.0.1
+  shardingsphere-sql-parser-postgresql:
+    cpeName: shardingsphere-sql-parser-postgresql
+    version: 5.2.0
+  hetu-clickhouse:
+    cpeName: hetu-clickhouse
+    version: 1.10.0-SNAPSHOT
+  jetty-alpn-openjdk8-client:
+    cpeName: jetty-alpn-openjdk8-client
+    version: 9.4.48.v20220622
+  http2-client:
+    cpeName: http2-client
+    version: 9.4.48.v20220622
+  presto-thrift-api:
+    cpeName: presto-thrift-api
+    version: 1.10.0-SNAPSHOT
+  disruptor:
+    cpeName: disruptor
+    version: 3.3.6
+  aether-spi:
+    cpeName: aether-spi
+    version: 1.13.1
+  commons-pool:
+    cpeName: commons-pool
+    version: 1.5.4
+  shardingsphere-infra-common:
+    cpeName: shardingsphere-infra-common
+    version: 5.2.0
+  shardingsphere-sql-translator-api:
+    cpeName: shardingsphere-sql-translator-api
+    version: 5.2.0
+  Jettison:
+    cpeName: Jettison
+    version: 1.4.1
+  elasticjob-dataflow-executor:
+    cpeName: elasticjob-dataflow-executor
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-ecosystem/elasticjob-executor/elasticjob-executor-type/elasticjob-dataflow-executor/
+  jersey-container-servlet:
+    cpeName: jersey-container-servlet
+    version: 2.26.0
+  elasticjob-registry-center:
+    cpeName: elasticjob-registry-center
+    version: 3.0.1
+    url: http://shardingsphere.apache.org/elasticjob/elasticjob-infra/elasticjob-registry-center/
+  jetty-webapp:
+    cpeName: jetty-webapp
+    version: 9.4.48.v20220622
+  maven-settings:
+    cpeName: maven-settings
+    version: 3.0.4
+  re2j-td:
+    cpeName: re2j-td
+    version: 1.4
+  hbase-shaded-miscellaneous:
+    cpeName: hbase-shaded-miscellaneous
+    version: 2.2.1
+    url: http://hbase.apache.org/hbase-shaded-miscellaneous
+  hetu-startree:
+    cpeName: hetu-startree
+    version: 1.10.0-SNAPSHOT
+  javax.servlet.jsp-api:
+    cpeName: javax.servlet.jsp-api
+    version: 2.3.1
+  findbugs-annotations:
+    cpeName: findbugs-annotations
+    version: 1.3.9-1
+  jetty-alpn-client:
+    cpeName: jetty-alpn-client
+    version: 9.4.48.v20220622
+  aether-connector-asynchttpclient:
+    cpeName: aether-connector-asynchttpclient
+    version: 1.13.1
+  hetu-dm:
+    cpeName: hetu-dm
+    version: 1.10.0-SNAPSHOT
+  aggs-matrix-stats-client:
+    cpeName: aggs-matrix-stats-client
+    version: 6.0.0
+  presto-record-decoder:
+    cpeName: presto-record-decoder
+    version: 1.10.0-SNAPSHOT
+  hetu-metastore:
+    cpeName: hetu-metastore
+    version: 1.10.0-SNAPSHOT
+  netty-codec-mqtt:
+    cpeName: netty-codec-mqtt
+    version: 4.1.86.Final
+    url: https://netty.io/netty-codec-mqtt/
+  aether-api:
+    cpeName: aether-api
+    version: 1.13.1
+  shardingsphere-single-table-api:
+    cpeName: shardingsphere-single-table-api
+    version: 5.2.0
+  zkclient:
+    cpeName: zkclient
+    version: 0.10
+  maven-repository-metadata:
+    cpeName: maven-repository-metadata
+    version: 3.0.4
+  cosid-core:
+    cpeName: cosid-core
+    version: 1.14.4
+  spring-expression:
+    cpeName: spring-expression
+    version: 5.3.20
+  presto-password-authenticators:
+    cpeName: presto-password-authenticators
+    version: 1.10.0-SNAPSHOT
+  spring-beans:
+    cpeName: spring-beans
+    version: 5.3.20
+  shardingsphere-standalone-mode-repository-api:
+    cpeName: shardingsphere-standalone-mode-repository-api
+    version: 5.2.0
+  org.apache.zookeeper:
+    cpeName: org.apache.zookeeper
+    version: 3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03
+  picocli:
+    cpeName: picocli
+    version: 4.6.3
+  quartz:
+    cpeName: quartz
+    version: 2.3.2
+  modernizer-maven-annotations:
+    cpeName: modernizer-maven-annotations
+    version: 2.3.0
+  shardingsphere-infra-federation-executor:
+    cpeName: shardingsphere-infra-federation-executor
+    version: 5.2.0
+  shardingsphere-dialect-exception-core:
+    cpeName: shardingsphere-dialect-exception-core
+    version: 5.2.0
+  aether-connector-file:
+    cpeName: aether-connector-file
+    version: 1.13.1
+  eclipse-collections-api:
+    cpeName: eclipse-collections-api
+    version: 11.1.0
