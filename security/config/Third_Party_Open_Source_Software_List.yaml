@@ -303,6 +303,9 @@ hetu-core:
   jgrapht-core:
     cpeName: jgrapht-core
     version: 0.8.4.dev
+  modernizer-maven-annotations:
+    cpeName: modernizer-maven-annotations
+    version: 2.4.0
   slf4j-api:
     cpeName: slf4j-api
     version: 1.7.29
@@ -1690,9 +1693,6 @@ hetu-core:
   quartz:
     cpeName: quartz
     version: 2.3.2
-  modernizer-maven-annotations:
-    cpeName: modernizer-maven-annotations
-    version: 2.3.0
   shardingsphere-infra-federation-executor:
     cpeName: shardingsphere-infra-federation-executor
     version: 5.2.0
