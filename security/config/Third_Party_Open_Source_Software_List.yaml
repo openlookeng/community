@@ -483,9 +483,6 @@ hetu-core:
     cpeName: netty-codec-http
     version: 4.1.86.Final
     url: https://netty.io/netty-codec-http/
-  eclipse-collections-forkjoin:
-    cpeName: eclipse-collections-forkjoin
-    version: 11.1.0
   xbean-reflect:
     cpeName: xbean-reflect
     version: 3.4
@@ -952,6 +949,9 @@ hetu-core:
   docker-java-transport-zerodep:
     cpeName: docker-java-transport-zerodep
     version: 3.2.5
+  eclipse-collections-forkjoin:
+    cpeName: eclipse-collections-forkjoin
+    version: 12.0.0.M1
   javax.activation.javax.activation-api:
     cpeName: javax.activation.javax.activation-api
     version: 1.2.0
@@ -1185,6 +1185,9 @@ hetu-core:
     cpeName: commons-beanutils
     version: 1.9.4
     url: https://commons.apache.org/proper/commons-beanutils/
+  eclipse-collections:
+    cpeName: eclipse-collections
+    version: 12.0.0.M1
   log4j-api:
     cpeName: log4j-api
     version: 2.17.2
@@ -1277,9 +1280,6 @@ hetu-core:
     cpeName: kylin-jdbc
     version: 2.6.0
     url: http://kylin.apache.org/kylin-jdbc
-  eclipse-collections:
-    cpeName: eclipse-collections
-    version: 11.1.0
   netty-codec-socks:
     cpeName: netty-codec-socks
     version: 4.1.86.Final
@@ -1359,6 +1359,9 @@ hetu-core:
   shardingsphere-sql-parser-spi:
     cpeName: shardingsphere-sql-parser-spi
     version: 5.3.0
+  eclipse-collections-api:
+    cpeName: eclipse-collections-api
+    version: 12.0.0.M1
   shardingsphere-infra-context:
     cpeName: shardingsphere-infra-context
     version: 5.3.0
@@ -1714,6 +1717,3 @@ hetu-core:
   aether-connector-file:
     cpeName: aether-connector-file
     version: 1.13.1
-  eclipse-collections-api:
-    cpeName: eclipse-collections-api
-    version: 11.1.0
